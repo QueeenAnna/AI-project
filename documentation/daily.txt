@@ -1,6 +1,7 @@
 ************************************************************************************************************************************************
 <Mall för daily stand-up>
 Daily 2022-xx-xx
+__
 Anna
 *   Vad har jag gjort sedan avstämningen igår?
 
@@ -60,4 +61,39 @@ Sprint planning
 * Uppskatta tillgänglig tid för gruppen i nästa sprint.
 * Vad ska ingå i nästa veckas sprint?
 ************************************************************************************************************************************************
+Daily 2022-04-07
+__
+Anna
+*   Vad har jag gjort sedan avstämningen igår?
 
+*   Vad ska jag göra till nästa avstämning?
+
+*   Behöver jag hjälp med något?
+
+Elvir
+*   Vad har jag gjort sedan avstämningen igår?
+
+*   Vad ska jag göra till nästa avstämning?
+
+*   Behöver jag hjälp med något?
+
+
+MaryAnn
+*   Vad har jag gjort sedan avstämningen igår?
+
+*   Vad ska jag göra till nästa avstämning?
+
+*   Behöver jag hjälp med något?
+
+
+Johanna
+*   Vad har jag gjort sedan avstämningen igår?
+
+*   Vad ska jag göra till nästa avstämning?
+
+*   Behöver jag hjälp med något?
+
+Övrigt
+*
+
+************************************************************************************************************************************************
