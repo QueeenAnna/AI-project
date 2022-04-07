@@ -1,12 +1,5 @@
-MÖTESPROTOKOLL
--
-
-Datum: 13-01-2022
-
-Närvarande: Johanna, MaryAnn, Elvir och Anna
-
 ### Daily 2022-xx-xx
--
+Närvarande: 
 
 Anna
 *   Vad har jag gjort sedan avstämningen igår?
@@ -68,17 +61,38 @@ Sprint planning
 * Vad ska ingå i nästa veckas sprint?
 ************************************************************************************************************************************************
 Daily 2022-04-07
-__
+   Närvarande: Anna, Elvir, MaryAnn, Johanna
+      Vi hade vårt första projektmöte igår och bestämde formerna för samarbetet; tid (gemensam tid 9-15 alla veckodagar förutom lektionsdagar), plats (tillsammans
+      på skolan för de som har möjlighet till en början för att få en gemensam och enhetlig syn på projektet och sedan kommer vi eventuellt successivt att övergå 
+      till distans), plattform (GitHub), kommunikationskanal (Discord) samt att vi ska försöka parprogrammera i så stor utsträckning som möjligt. Mohammad som ingår
+      i vår grupp var inte med igår, vi hjälper honom att komma in i arbetet så bra vi kan när vi fått tag på honom. 
+      
+      Några förslag på projekt kom upp och vi landade till slut i en applikation där vi med hjälp av mobilen ska scanna eller filma de grönsaker (initialt, kanske att 
+      fler livsmedelsgrupper tillkomer senare i projektet) som finns där och sedan ska vår applikation leta upp recept som innehåller dessa ingredienser. Vi fick lite
+      input från Joakim och då kom följande frågeställningar/saker att tänka på upp:
+      1. Grönsaker kan vara förvarade i förpackningar, hur hanterar vi det?
+      2. Hur vet vi mängden av varje grönsakstyp?
+      3. Vi börjar med t.ex. tomat och gurka som är skilda till färg och form och lägger till andra grönsaker efterhand. Kanske någon som liknar (ex. rödlök).
+      4. Ska vi försöka hålla reda på vilket recept som applikation har föreslagit så att vi inte får samma förslag om och om igen?
+      5. Ska användaren kunna ge betyg på receptet och låta de med högt betyg återkomma efter ett visst tidsintervall?
+      6. Vi kan själva ta kort på grönsakerna, måste inte använda dataset. Viktigt då att ta kort med olika avstånd, antal, vinklar, belysning, bakgrund, mognadsgrad 
+         m.m.
+      7. Ska vi ha en kategori som heter "Annan grönsak"?
+      8. Hur kopplar vi ihop grönsakerna som vi identifierat med receptet? Ska ingrediensen förekomma enbart i ingredienslistan eller även i fritexten?
+      9. Vissa kylskåp har blått ljus, hår påverkar det möjligheten att identifiera grönsakerna?
+      10. Joakim tipsade om att använda CNN, convolutional neural network för att känna igen grönsakerna samt cv2 för att "fiffla med bilderna" (finns i opencv-
+          python), t.ex. att lägga konturer hur lång eller bred en grönsak är för att lättare identifiera objektet.
+          
 Anna
 *   Vad har jag gjort sedan avstämningen igår?
-
+     Skapat ett repo på GitHub och delat med gruppen.
 *   Vad ska jag göra till nästa avstämning?
 
 *   Behöver jag hjälp med något?
 
 Elvir
 *   Vad har jag gjort sedan avstämningen igår?
-
+      Gjort mallen för kanban i GitHub. Letade upp ett dataset med frukter och grönsaker.
 *   Vad ska jag göra till nästa avstämning?
 
 *   Behöver jag hjälp med något?
@@ -86,7 +100,7 @@ Elvir
 
 MaryAnn
 *   Vad har jag gjort sedan avstämningen igår?
-
+      -
 *   Vad ska jag göra till nästa avstämning?
 
 *   Behöver jag hjälp med något?
@@ -94,7 +108,8 @@ MaryAnn
 
 Johanna
 *   Vad har jag gjort sedan avstämningen igår?
-
+      Hittade ett dataset med recept. Har kollat vidare på andra dataset med bilder på grönsaker som ska komplettera det Elvir hittade. Inget att fortsätta med just 
+      nu, kanske att det blir aktuellt senare. 
 *   Vad ska jag göra till nästa avstämning?
 
 *   Behöver jag hjälp med något?
