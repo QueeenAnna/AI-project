@@ -89,7 +89,7 @@ Anna
 *   Vad har jag gjort sedan avstämningen igår?
      Skapat ett repo på GitHub och delat med gruppen.
 *   Vad ska jag göra till nästa avstämning?
-      Läsa på om opencv och eventuellt CNN.
+      Kolla dataseten. Läsa på om opencv och eventuellt CNN.
 *   Behöver jag hjälp med något?
       Nej
 
@@ -97,7 +97,7 @@ Elvir
 *   Vad har jag gjort sedan avstämningen igår?
       Gjort mallen för kanban i GitHub. Letade upp ett dataset med frukter och grönsaker.
 *   Vad ska jag göra till nästa avstämning?
-      Läsa på om opencv och eventuellt CNN.
+      Kolla dataseten. Läsa på om opencv och eventuellt CNN.
 *   Behöver jag hjälp med något?
       Nej
 
@@ -105,7 +105,7 @@ MaryAnn
 *   Vad har jag gjort sedan avstämningen igår?
       -
 *   Vad ska jag göra till nästa avstämning?
-      Läsa på om opencv och eventuellt CNN.
+      Kolla dataseten. Läsa på om opencv och eventuellt CNN.
 *   Behöver jag hjälp med något?
 
 
@@ -114,7 +114,7 @@ Johanna
       Hittade ett dataset med recept. Har kollat vidare på andra dataset med bilder på grönsaker som ska komplettera det Elvir hittade. Inget att fortsätta med just 
       nu, kanske att det blir aktuellt senare. 
 *   Vad ska jag göra till nästa avstämning?
-      Läsa på om opencv och eventuellt CNN.
+      Kolla dataseten. Läsa på om opencv och eventuellt CNN.
 *   Behöver jag hjälp med något?
       Nej
 
