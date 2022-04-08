@@ -73,7 +73,7 @@
 
 ### Anna
 *   __Vad har jag gjort sedan avstämningen igår?__
-    Analyserade och rensade RAW_recipies datasetet till de columner som är intressanta för oss. Analyserade och diskuterade med gruppen och fick en tydligre bild på hur prjekten ska läggas upp. Lagt till dem första issuesen i project backlog. Läste på om OpenCV och lärde sig de grundläggande delarna. 
+    Analyserade och rensade RAW_recipies datasetet till de columner som är intressanta för oss. Analyserade och diskuterade med gruppen och fick en tydligre bild på hur projekten ska läggas upp. Lagt till dem första issuesen i project backlog. Läste på om OpenCV och lärde sig det grundläggande. 
 
 *   __Vad ska jag göra till nästa avstämning?__
     Forsätta läsa på om OpenCV och börja titta på CNN. Ta reda på vilka delar som behövs för att kunna bygga en kamera detector.
@@ -83,28 +83,28 @@
 
 ### Elvir
 *   __Vad har jag gjort sedan avstämningen igår?__
-    Analyserade och rensade RAW_recipies datasetet till de columner som är intressanta för oss. Analyserade och diskuterade med gruppen och fick en tydligre bild på hur prjekten ska läggas upp. Lagt till dem första issuesen i project backlog. Läste på om OpenCV och lärde sig de grundläggande delarna.
+    Analyserade och rensade RAW_recipies datasetet till de columner som är intressanta för oss. Analyserade och diskuterade med gruppen och fick en tydligre bild på hur projekten ska läggas upp. Lagt till dem första issuesen i project backlog. Läste på om OpenCV och lärde sig det grundläggande.
     
 *   __Vad ska jag göra till nästa avstämning?__
-    Forstätta upplysa sig själv med OpenCV och börja titta på CNN.
+    Forstätta upplysa sig själv om OpenCV och börja titta på CNN.
 
 *   __Behöver jag hjälp med något?__
     Nej
 
 ### MaryAnn
 *   __Vad har jag gjort sedan avstämningen igår?__
-    Analyserade och diskuterade med gruppen och fick en tydligre bild på hur prjekten ska läggas upp. Lagt till dem första issuesen i project backlog.
-    Läste på om OpenCV, hittade exempelkod som uppfyller det vi vill ha. Exemplekoden handlade om om face/object recognition.
+    Analyserade och diskuterade med gruppen och fick en tydligre bild på hur projekten ska läggas upp. Lagt till dem första issuesen i project backlog.
+    Läste på om OpenCV, hittade exempelkod i c++ som uppfyller det vi vill ha. Exemplekoden handlade om om face/object recognition.
     
 *   __Vad ska jag göra till nästa avstämning?__
-    Analysera exempelkoden i c++ och vidare kanske försöka översätta koden till python. Fortstätta upplysa sig själv med OpenCV och börja titta på hur man kan bygga en open shape.
+    Analysera exempelkoden i c++ och vidare kanske försöka översätta koden till python. Fortstätta upplysa sig själv om OpenCV och börja titta på hur man kan bygga en open shape.
     
 *   __Behöver jag hjälp med något?__
     Nej
 
 ### Johanna
 *   __Vad har jag gjort sedan avstämningen igår?__
-    Vabbat. Analyserade och diskuterade med gruppen och fick en tydligre bild på hur prjekten ska läggas upp. Lagt till dem första issuesen i project backlog. 
+    Vabbat. Analyserade och diskuterade med gruppen och fick en tydligre bild på hur projekten ska läggas upp. Lagt till dem första issuesen i project backlog. 
 
 *   __Vad ska jag göra till nästa avstämning?__
     Vabba och läsa på om OpenCV så gott det går.
