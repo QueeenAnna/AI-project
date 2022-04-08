@@ -1,45 +1,50 @@
-### Daily 2022-xx-xx
-Närvarande: 
+************************************************************************************************************************************************
+### <Mall för daily standup>
 
-Anna
-*   Vad har jag gjort sedan avstämningen igår?
+## Daily 2022-xx-xx
 
-*   Vad ska jag göra till nästa avstämning?
+## Närvarande: 
 
-*   Behöver jag hjälp med något?
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__
 
-Elvir
-*   Vad har jag gjort sedan avstämningen igår?
+*   __Vad ska jag göra till nästa avstämning?__
 
-*   Vad ska jag göra till nästa avstämning?
+*   __Behöver jag hjälp med något?__
 
-*   Behöver jag hjälp med något?
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__
 
+*   __Vad ska jag göra till nästa avstämning?__
 
-MaryAnn
-*   Vad har jag gjort sedan avstämningen igår?
-
-*   Vad ska jag göra till nästa avstämning?
-
-*   Behöver jag hjälp med något?
+*   __Behöver jag hjälp med något?__
 
 
-Johanna
-*   Vad har jag gjort sedan avstämningen igår?
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__
 
-*   Vad ska jag göra till nästa avstämning?
+*   __Vad ska jag göra till nästa avstämning?__
 
-*   Behöver jag hjälp med något?
+*   __Behöver jag hjälp med något?__
 
-Övrigt
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__
+
+*   __Vad ska jag göra till nästa avstämning?__
+
+*   __Behöver jag hjälp med något?__
+
+### Övrigt
 *
 
 ************************************************************************************************************************************************
 
-<Mall för sprint review och sprint planning>
-Möte 2022-xx-xx
+### <Mall för sprint review och sprint planning>
 
-Sprint review
+## Möte 2022-xx-xx
+
+### Sprint review
 * Blev alla issues klara?
    - Om inte, varför?
 * Icke klara issues återförs till backlog, efter att de har uppdaterats.
@@ -50,7 +55,7 @@ Sprint review
 * Bedöm vad ni kan göra bättre i nästa sprint
 
 
-Sprint planning
+### Sprint planning
 * Beskriv det övergripande målet med sprinten:
   -Namn:
   -Beskrivning:
@@ -59,9 +64,61 @@ Sprint planning
   -Backlogg: Se Time_estimates.txt
 * Uppskatta tillgänglig tid för gruppen i nästa sprint.
 * Vad ska ingå i nästa veckas sprint?
+
+
 ************************************************************************************************************************************************
-Daily 2022-04-07
-   Närvarande: Anna, Elvir, MaryAnn, Johanna
+## Daily 2022-04-08
+
+### Närvarande: Johanna, MaryAnn, Elvir och Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__
+    Analyserade och rensade RAW_recipies datasetet till de columner som är intressanta för oss. Analyserade och diskuterade med gruppen och fick en tydligre bild på hur prjekten ska läggas upp. Lagt till dem första issuesen i project backlog. Läste på om OpenCV och lärde sig de grundläggande delarna. 
+
+*   __Vad ska jag göra till nästa avstämning?__
+    Forsätta läsa på om OpenCV och börja titta på CNN. Ta reda på vilka delar som behövs för att kunna bygga en kamera detector.
+
+*   __Behöver jag hjälp med något?__
+    Nej
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__
+    Analyserade och rensade RAW_recipies datasetet till de columner som är intressanta för oss. Analyserade och diskuterade med gruppen och fick en tydligre bild på hur prjekten ska läggas upp. Lagt till dem första issuesen i project backlog. Läste på om OpenCV och lärde sig de grundläggande delarna.
+    
+*   __Vad ska jag göra till nästa avstämning?__
+    Forstätta upplysa sig själv med OpenCV och börja titta på CNN.
+
+*   __Behöver jag hjälp med något?__
+    Nej
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__
+    Analyserade och diskuterade med gruppen och fick en tydligre bild på hur prjekten ska läggas upp. Lagt till dem första issuesen i project backlog.
+    Läste på om OpenCV, hittade exempelkod som uppfyller det vi vill ha. Exemplekoden handlade om om face/object recognition.
+    
+*   __Vad ska jag göra till nästa avstämning?__
+    Analysera exempelkoden i c++ och vidare kanske försöka översätta koden till python. Fortstätta upplysa sig själv med OpenCV och börja titta på hur man kan bygga en open shape.
+    
+*   __Behöver jag hjälp med något?__
+    Nej
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__
+    Vabbat. Analyserade och diskuterade med gruppen och fick en tydligre bild på hur prjekten ska läggas upp. Lagt till dem första issuesen i project backlog. 
+
+*   __Vad ska jag göra till nästa avstämning?__
+    Vabba och läsa på om OpenCV så gott det går.
+    
+*   __Behöver jag hjälp med något?__
+    Nej
+    
+### Övrigt
+*
+
+************************************************************************************************************************************************
+## Daily 2022-04-07
+
+### Närvarande: Anna, Elvir, MaryAnn, Johanna
       Vi hade vårt första projektmöte igår och bestämde formerna för samarbetet; tid (gemensam tid 9-15 alla veckodagar förutom lektionsdagar), plats (tillsammans
       på skolan för de som har möjlighet till en början för att få en gemensam och enhetlig syn på projektet och sedan kommer vi eventuellt successivt att övergå 
       till distans), plattform (GitHub), kommunikationskanal (Discord) samt att vi ska försöka parprogrammera i så stor utsträckning som möjligt. Mohammad som ingår
@@ -85,7 +142,7 @@ Daily 2022-04-07
           
 
           
-Anna
+### Anna
 *   Vad har jag gjort sedan avstämningen igår?
      Skapat ett repo på GitHub och delat med gruppen.
 *   Vad ska jag göra till nästa avstämning?
@@ -93,7 +150,7 @@ Anna
 *   Behöver jag hjälp med något?
       Nej
 
-Elvir
+### Elvir
 *   Vad har jag gjort sedan avstämningen igår?
       Gjort mallen för kanban i GitHub. Letade upp ett dataset med frukter och grönsaker.
 *   Vad ska jag göra till nästa avstämning?
@@ -101,15 +158,14 @@ Elvir
 *   Behöver jag hjälp med något?
       Nej
 
-MaryAnn
+### MaryAnn
 *   Vad har jag gjort sedan avstämningen igår?
-      -
 *   Vad ska jag göra till nästa avstämning?
       Kolla dataseten. Läsa på om opencv och eventuellt CNN.
 *   Behöver jag hjälp med något?
 
 
-Johanna
+### Johanna
 *   Vad har jag gjort sedan avstämningen igår?
       Hittade ett dataset med recept. Har kollat vidare på andra dataset med bilder på grönsaker som ska komplettera det Elvir hittade. Inget att fortsätta med just 
       nu, kanske att det blir aktuellt senare. 
@@ -118,7 +174,7 @@ Johanna
 *   Behöver jag hjälp med något?
       Nej
 
-Övrigt
+### Övrigt
 *     Då det är så mycket nytt att läsa in sig på och vi inte riktigt vet vilka issues som vi kommer att behöva göra väntar vi med att göra en sprint backlog tills
       vi har mer koll på ämnet, troligtvis på måndag.
 
