@@ -65,6 +65,50 @@
 * Uppskatta tillgänglig tid för gruppen i nästa sprint.
 * Vad ska ingå i nästa veckas sprint?
 
+************************************************************************************************************************************************
+## Daily 2022-04-11
+
+### Närvarande: Anna, Elvir, MaryAnn, Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__
+   Hittade camera recognition python code, testade och anpassade för att funka.
+
+*   __Vad ska jag göra till nästa avstämning?__
+
+*   __Behöver jag hjälp med något?__
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__
+   Hittade iriun mobil app för att ta bild och video, som ska kopplas till ML algoritmen för user interface eller data testing och inlärning.
+
+*   __Vad ska jag göra till nästa avstämning?__
+
+*   __Behöver jag hjälp med något?__
+
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__
+   Läste och studerar Open CV crash course.
+
+*   __Vad ska jag göra till nästa avstämning?__
+
+*   __Behöver jag hjälp med något?__
+
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__
+
+*   __Vad ska jag göra till nästa avstämning?__
+
+*   __Behöver jag hjälp med något?__
+
+### Övrigt
+
+
+
+
+
 
 ************************************************************************************************************************************************
 ## Daily 2022-04-08
@@ -178,4 +222,5 @@
 *     Då det är så mycket nytt att läsa in sig på och vi inte riktigt vet vilka issues som vi kommer att behöva göra väntar vi med att göra en sprint backlog tills
       vi har mer koll på ämnet, troligtvis på måndag.
 
-************************************************************************************************************************************************
+
+
