@@ -97,15 +97,21 @@
 
 
 ### Johanna
-*   __Vad har jag gjort sedan avstämningen igår?__
+*   __Vad har jag gjort sedan avstämningen igår?__ 
+   Vabbade och kollade på Open CV tutorial.
 
 *   __Vad ska jag göra till nästa avstämning?__
 
 *   __Behöver jag hjälp med något?__
 
+
 ### Övrigt
 
+Vad ska vi göra vidare?
 
+1. Bygga databas för träning model och bygga vidare.
+2. Använda cap_pic_code.txt för att ta bilder och inkludera till algorithmen.
+3. Research på TensorFlow.
 
 
 
