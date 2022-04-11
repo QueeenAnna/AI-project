@@ -75,35 +75,39 @@
    Hittade camera recognition python code, testade och anpassade för att funka.
 
 *   __Vad ska jag göra till nästa avstämning?__
+    Alla i gruppen vill leka och testa hur tar man bild for dataset.
 
 *   __Behöver jag hjälp med något?__
+   Nej
 
 ### Elvir
 *   __Vad har jag gjort sedan avstämningen igår?__
    Hittade iriun mobil app för att ta bild och video, som ska kopplas till ML algoritmen för user interface eller data testing och inlärning.
 
 *   __Vad ska jag göra till nästa avstämning?__
-
+    Alla i gruppen vill leka och testa hur tar man bild for dataset.
 *   __Behöver jag hjälp med något?__
-
+   Nej
 
 ### MaryAnn
 *   __Vad har jag gjort sedan avstämningen igår?__
    Läste och studerar Open CV crash course.
 
 *   __Vad ska jag göra till nästa avstämning?__
+    Alla i gruppen vill leka och testa hur tar man bild for dataset.
 
 *   __Behöver jag hjälp med något?__
-
+   Nej
 
 ### Johanna
 *   __Vad har jag gjort sedan avstämningen igår?__ 
    Vabbade och kollade på Open CV tutorial.
 
 *   __Vad ska jag göra till nästa avstämning?__
+   Alla i gruppen vill leka och testa hur tar man bild for dataset.
 
 *   __Behöver jag hjälp med något?__
-
+   Nej
 
 ### Övrigt
 
@@ -112,8 +116,6 @@ Vad ska vi göra vidare?
 1. Bygga databas för träning model och bygga vidare.
 2. Använda cap_pic_code.txt för att ta bilder och inkludera till algorithmen.
 3. Research på TensorFlow.
-
-
 
 
 ************************************************************************************************************************************************
