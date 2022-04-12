@@ -66,6 +66,58 @@
 * Vad ska ingå i nästa veckas sprint?
 
 ************************************************************************************************************************************************
+### <Mall för daily standup>
+
+## Daily 2022-04-12
+
+## Närvarande: Johanna, Anna, MaryAnn, Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__
+*   Fixat github problem, samlat data på gurkor, testat med koden vi fick av Joakim.
+
+*   __Vad ska jag göra till nästa avstämning?__
+*   Ta bilder samla på sig data. Läsa på om opencv och eventuellt tensorflow
+
+*   __Behöver jag hjälp med något?__
+*   Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__
+*   testat med koden, tagit bilder på lök. Försökte hjälpa anna med github strul.
+
+*   __Vad ska jag göra till nästa avstämning?__
+*   Läsa på mer om opencv och eventuellt tensorflow, mer bilder på lök.
+
+*   __Behöver jag hjälp med något?__
+*   Nej.
+
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__
+*   Tagit bilder på grönsaker, läste på om CNN.
+
+*   __Vad ska jag göra till nästa avstämning?__
+*   Läsa på och jobba med CNN, testa koden och ta bilder.
+
+*   __Behöver jag hjälp med något?__
+*   Nej.
+
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__
+*   Testade med koden och fixade den, tog bilder på rödlökar till datasetet. Försökte hjälpa anna med github strul.
+
+*   __Vad ska jag göra till nästa avstämning?__
+*   Göra klart datasetet för röd lök, läsa på om CNN
+
+*   __Behöver jag hjälp med något?__
+*   Nej.
+
+### Övrigt
+*
+
+************************************************************************************************************************************************
 ## Daily 2022-04-11
 
 ### Närvarande: Anna, Elvir, MaryAnn, Johanna
