@@ -66,7 +66,48 @@
 * Vad ska ingå i nästa veckas sprint?
 
 ************************************************************************************************************************************************
-### <Mall för daily standup>
+## Daily 2022-04-13
+
+## Närvarande: Anna, Elvir, MaryAnn, Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__
+      Försökte kolla upp mer om OpenCV, svårt pga dåligt internet. Samlat data på gurkor.
+*   __Vad ska jag göra till nästa avstämning?__
+      Fortsätter med samma som tills idag.
+*   __Behöver jag hjälp med något?__
+      Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__
+      Tagit mer bilder på gula lökar och kollat på OpenCV.
+*   __Vad ska jag göra till nästa avstämning?__
+      Läser på mer om OpenCV och komplettera med fler bilder från något dataset.
+*   __Behöver jag hjälp med något?__
+      Nej.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__
+      Läst på om CNN.
+*   __Vad ska jag göra till nästa avstämning?__
+      Fortsätter lära sig om CNN.
+*   __Behöver jag hjälp med något?__
+      Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__
+      Gjort en liten komplettering med rödlökar och kollat på tutorial om CNN. 
+*   __Vad ska jag göra till nästa avstämning?__
+      Kollar vidare på tutorialen.
+*   __Behöver jag hjälp med något?__
+      Nej.
+### Övrigt
+*     Vi har alla testat på att samla ihop bilder av en råvara för att se hur det funkar. Vi kommer att utöka datasetet med fler grönsaker, rotfrukter etc.
+      när vi lärt oss mer, kommit längre och vet vad vi behöver.
+      Efter att vi har läst på mer kommer vi att presentera för varandra vad vi har lärt oss, och då kan vi fortsätta planera projektet. Nästa daily tisdag 19/4.
+  
+************************************************************************************************************************************************
+
 
 ## Daily 2022-04-12
 
