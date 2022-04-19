@@ -6,36 +6,36 @@
 ## Närvarande: 
 
 ### Anna
-*   __Vad har jag gjort sedan avstämningen igår?__
+*   __Vad har jag gjort sedan avstämningen igår?__\
 
-*   __Vad ska jag göra till nästa avstämning?__
+*   __Vad ska jag göra till nästa avstämning?__\
 
-*   __Behöver jag hjälp med något?__
+*   __Behöver jag hjälp med något?__\
 
 ### Elvir
-*   __Vad har jag gjort sedan avstämningen igår?__
+*   __Vad har jag gjort sedan avstämningen igår?__\
 
-*   __Vad ska jag göra till nästa avstämning?__
+*   __Vad ska jag göra till nästa avstämning?__\
 
-*   __Behöver jag hjälp med något?__
+*   __Behöver jag hjälp med något?__\
 
 
 ### MaryAnn
-*   __Vad har jag gjort sedan avstämningen igår?__
+*   __Vad har jag gjort sedan avstämningen igår?__\
 
-*   __Vad ska jag göra till nästa avstämning?__
+*   __Vad ska jag göra till nästa avstämning?__\
 
-*   __Behöver jag hjälp med något?__
+*   __Behöver jag hjälp med något?__\
 
 
 ### Johanna
-*   __Vad har jag gjort sedan avstämningen igår?__
+*   __Vad har jag gjort sedan avstämningen igår?__\
 
-*   __Vad ska jag göra till nästa avstämning?__
+*   __Vad ska jag göra till nästa avstämning?__\
 
-*   __Behöver jag hjälp med något?__
+*   __Behöver jag hjälp med något?__\
 
-### Övrigt
+### Övrigt\
 *
 
 ************************************************************************************************************************************************
@@ -45,25 +45,75 @@
 ## Möte 2022-xx-xx
 
 ### Sprint review
-* Blev alla issues klara?
-   - Om inte, varför?
-* Icke klara issues återförs till backlog, efter att de har uppdaterats.
-  - Har vissa delar klarats av?
-  - Skall vi ha en ny tidsuppskattning?
-  - Vad behövs för att vi skall klara detta issue nästa gång?
-* Har det kommit upp nya saker som skall läggas till på er backlog?
-* Bedöm vad ni kan göra bättre i nästa sprint
+* Blev alla issues klara?\
+   - Om inte, varför?\
+* Icke klara issues återförs till backlog, efter att de har uppdaterats.\
+  - Har vissa delar klarats av?\
+  - Skall vi ha en ny tidsuppskattning?\
+  - Vad behövs för att vi skall klara detta issue nästa gång?\
+* Har det kommit upp nya saker som skall läggas till på er backlog?\
+* Bedöm vad ni kan göra bättre i nästa sprint\
 
 
 ### Sprint planning
-* Beskriv det övergripande målet med sprinten:
-  -Namn:
-  -Beskrivning:
-  -Startdatum:
-  -Slutdatum:
-  -Backlogg: Se Time_estimates.txt
-* Uppskatta tillgänglig tid för gruppen i nästa sprint.
-* Vad ska ingå i nästa veckas sprint?
+* Beskriv det övergripande målet med sprinten:\
+  -Namn:\
+  -Beskrivning:\
+  -Startdatum:\
+  -Slutdatum:\
+  -Backlogg: Se Time_estimates.txt\
+* Uppskatta tillgänglig tid för gruppen i nästa sprint.\
+* Vad ska ingå i nästa veckas sprint?\
+
+************************************************************************************************************************************************
+## Daily 2022-04-19
+
+## Närvarande: Johanna, Elvir och Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Studerat OpenCV, men har inte kunnat studera effektivt pga dålig internet. Har samlat data på gurkor och datasetet för gurkor är nu komplett.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Fortsätta studera klart om OpenCV och kolla hur vi kan använda detta till projektet.
+
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Tagit fler bilder på lökar och utökat datasetet samt kompletterat med lökbilder från ett annat dataset. Studerat om OpenCV och TensorFlow. Fixat dropbox där vi kan skicka större filer till varandra.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Fixa med dropbox och skriva lite kod som vi kan använda oss av till projektet.
+
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+-
+
+*   __Vad ska jag göra till nästa avstämning?__\
+-
+
+*   __Behöver jag hjälp med något?__\
+-
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Läst på om CNN och fixat en första version av en lathund. 
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Ta några fer lökbilder, kolla färdigt tutorialen om CNN och en översiktsbild över OpenCV och Tensorflow. 
+
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Övrigt\
+* Vi började mötet med att informera varandra om OpenCV, TensorFlow och CNN. 
+* Påbörja första riktiga sprinten utan tiduppskattning eftersom vi inte har tillräckligt med kunskap inom området för att kunna göra en relevant uppskattning.
 
 ************************************************************************************************************************************************
 ## Daily 2022-04-13
