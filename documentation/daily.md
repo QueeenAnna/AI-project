@@ -66,6 +66,61 @@
 * Vad ska ingå i nästa veckas sprint?\
 
 ************************************************************************************************************************************************
+************************************************************************************************************************************************
+### <Mall för daily standup>
+
+## Daily 2022-04-20
+
+## Närvarande: Johanna, Anna, MaryAnn, Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+*   Tittat klart om opencv.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+*   Slå ihop dataset
+
+*   __Behöver jag hjälp med något?__\
+*   Nej
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+*   Tittat mer om tensorflow och CNN. 
+
+*   __Vad ska jag göra till nästa avstämning?__\
+*   Slå ihop dataset
+
+*   __Behöver jag hjälp med något?__\
+*   Nej
+
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+*   Tog en liten paus
+
+*   __Vad ska jag göra till nästa avstämning?__\
+*   Slå ihop dataset
+
+*   __Behöver jag hjälp med något?__\
+*   Nej
+
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+*   Kolla färdigt på tutorial, gjorde färdigt dataset, kollade på tensorflow.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+*   Slå ihop dataset
+
+*   __Behöver jag hjälp med något?__\
+*   Nej
+
+### Övrigt\
+* Några av oss är i skolan idag :)
+
+************************************************************************************************************************************************
+
+
 ## Daily 2022-04-19
 
 ## Närvarande: Johanna, Elvir och Anna
