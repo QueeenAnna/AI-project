@@ -112,6 +112,7 @@
 -     Alla försöker formulera eventuella frågor vi kan ställa till Joakim imorgon.
 -     1. När vi filmar kylskåpet, kommer vi då att ha kod med en uppsättning parametervärden (threshold 1 & 2, blur, dilate, erode, något annat)
 -        som ska funka på allt som filmas, eller specificerar vi värden för alla enskilda matvaror som vi har i vår databas?
+-     2. Vad kännetecknar en bra kontur?
 ************************************************************************************************************************************************
 
 ## Daily 2022-04-20
