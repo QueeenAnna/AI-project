@@ -1,4 +1,33 @@
+
 ************************************************************************************************************************************************
+
+### <Mall för sprint review och sprint planning>
+
+## Möte 2022-xx-xx
+
+### Sprint review
+* Blev alla issues klara?\
+   - Om inte, varför?\
+* Icke klara issues återförs till backlog, efter att de har uppdaterats.\
+  - Har vissa delar klarats av?\
+  - Skall vi ha en ny tidsuppskattning?\
+  - Vad behövs för att vi skall klara detta issue nästa gång?\
+* Har det kommit upp nya saker som skall läggas till på er backlog?\
+* Bedöm vad ni kan göra bättre i nästa sprint\
+
+
+### Sprint planning
+* Beskriv det övergripande målet med sprinten:\
+  -Namn:\
+  -Beskrivning:\
+  -Startdatum:\
+  -Slutdatum:\
+  -Backlogg: Se Time_estimates.txt\
+* Uppskatta tillgänglig tid för gruppen i nästa sprint.\
+* Vad ska ingå i nästa veckas sprint?\
+
+************************************************************************************************************************************************
+
 ### <Mall för daily standup>
 
 ## Daily 2022-xx-xx
@@ -37,37 +66,51 @@
 
 ### Övrigt\
 *
-
 ************************************************************************************************************************************************
 
-### <Mall för sprint review och sprint planning>
+## Daily 2022-04-21
 
-## Möte 2022-xx-xx
+## Närvarande: Anna, MaryAnn, Elvir och Johanna
 
-### Sprint review
-* Blev alla issues klara?\
-   - Om inte, varför?\
-* Icke klara issues återförs till backlog, efter att de har uppdaterats.\
-  - Har vissa delar klarats av?\
-  - Skall vi ha en ny tidsuppskattning?\
-  - Vad behövs för att vi skall klara detta issue nästa gång?\
-* Har det kommit upp nya saker som skall läggas till på er backlog?\
-* Bedöm vad ni kan göra bättre i nästa sprint\
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+      Vi laddade upp bilder till vårt dataset till Dropbox och började individuellt att experimentera med dem i PyCharm utifrån koden vi fått på gårdagens
+      lektion. 
+*   __Vad ska jag göra till nästa avstämning?__\
+      Försöka lösa så att OpenCV hittar konturerna kring objektet.
+*   __Behöver jag hjälp med något?__\
+      Nej
+      
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+      Vi laddade upp bilder till vårt dataset till Dropbox och började individuellt att experimentera med dem i PyCharm utifrån koden vi fått på gårdagens
+      lektion. 
+*   __Vad ska jag göra till nästa avstämning?__\
+      Försöka lösa så att OpenCV hittar konturerna kring objektet. Försöka kolla upp någon tutorial om hur vi ska gå vidare efter att vi hittat konturerna.
+*   __Behöver jag hjälp med något?__\
+      Nej
 
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+      Vi laddade upp bilder till vårt dataset till Dropbox och började individuellt att experimentera med dem i PyCharm utifrån koden vi fått på gårdagens
+      lektion. 
+*   __Vad ska jag göra till nästa avstämning?__\
+      Försöka lösa så att OpenCV hittar konturerna kring objektet. Om det finns tid över avsluta den påbörjade kursen om CNN.
+*   __Behöver jag hjälp med något?__\
+      Nej
 
-### Sprint planning
-* Beskriv det övergripande målet med sprinten:\
-  -Namn:\
-  -Beskrivning:\
-  -Startdatum:\
-  -Slutdatum:\
-  -Backlogg: Se Time_estimates.txt\
-* Uppskatta tillgänglig tid för gruppen i nästa sprint.\
-* Vad ska ingå i nästa veckas sprint?\
-
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+      Vi laddade upp bilder till vårt dataset till Dropbox och började individuellt att experimentera med dem i PyCharm utifrån koden vi fått på gårdagens
+      lektion. 
+*   __Vad ska jag göra till nästa avstämning?__\
+      Försöka lösa så att OpenCV hittar konturerna kring objektet. Kolla igen lite snabbt igen på en tutorial om OpenCV.
+*   __Behöver jag hjälp med något?__\
+      Nej
+      
+### Övrigt\
+*     Alla försöker formulera eventuella frågor vi kan ställa till Joakim imorgon.
 ************************************************************************************************************************************************
-************************************************************************************************************************************************
-### <Mall för daily standup>
 
 ## Daily 2022-04-20
 
