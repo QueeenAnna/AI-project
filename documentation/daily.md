@@ -68,6 +68,60 @@
 *
 ************************************************************************************************************************************************
 
+## Daily 2022-04-22
+
+## Närvarande: 
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+      Jobbat att försöka få ut contour på cucumber dataset.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+      Försätta med bild behandling på cucumber dataset.
+      
+*   __Behöver jag hjälp med något?__\
+      Nej
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+      Research på OpenCV Trackbars.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+       Försätta med bild behandling.
+
+*   __Behöver jag hjälp med något?__\
+       Nej
+
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+     Läste on OpenCV for Beginners - Module 5, 8 & 13.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+      Google Colaboratory & Pytorch Training Model.
+
+*   __Behöver jag hjälp med något?__\
+       Nej
+
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+      Jobbade med contour. 
+
+*   __Vad ska jag göra till nästa avstämning?__\
+      Försätta med bild behandling.
+
+*   __Behöver jag hjälp med något?__\
+       Nej
+
+
+### Övrigt__\
+*  
+
+
+***********************************************************************************************************************************************
+
+
 ## Daily 2022-04-21
 
 ## Närvarande: Anna, MaryAnn, Elvir och Johanna
