@@ -70,7 +70,7 @@
 
 ## Daily 2022-04-22
 
-## Närvarande: 
+## Närvarande: Anna, Elvir, Johanna, MaryAnn
 
 ### Anna
 *   __Vad har jag gjort sedan avstämningen igår?__\
