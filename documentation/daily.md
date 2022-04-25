@@ -67,6 +67,51 @@
 ### Övrigt__\
 *
 ************************************************************************************************************************************************
+## Daily 2022-04-25
+
+## Närvarande: Johanna, MaryAnn, Elvir och Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Försökt att påbörja första träningen av gurkdatasetet med detecto algoritmen men har inte fått det att fungera ännu då Jupyter notebook krashade.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Testa och se till så att jag kan skapa en fungerade modell och eventuellt skapa nästa modell för gråskalade/konturer bilder.
+*   __Behöver jag hjälp med något?__\
+Ja, jag behöver hjälp med att få jupyter notebook att fungera.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Skapat en färdig modell för gurk- och lökdatasetet med detecto algortimen. 
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Träna klart modellen för orginalbilderna inkl. rödlök
+
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat på Google Colabotory, stötte på lite error meddelanden och skickat iväg ett sms om detta till Joakim.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Undersöka errormeddelanden och testa skapa en modell.
+*   __Behöver jag hjälp med något?__\
+Nej, men kanske senare.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Håll på med att skapa labels och försökt dela upp bra bilder i träning och testdata.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka få till en tränad modell för konturer.
+*   __Behöver jag hjälp med något?__\
+Nej, men kanske senare.
+
+### Övrigt__\
+*
+
+************************************************************************************************************************************************
 
 ## Daily 2022-04-22
 
