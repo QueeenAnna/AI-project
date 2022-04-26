@@ -69,6 +69,81 @@
 ************************************************************************************************************************************************
 ## Daily 2022-04-25
 
+## Möte 2022-xx-xx
+
+### Sprint review
+* Blev alla issues klara?\
+   - Om inte, varför?\
+* Icke klara issues återförs till backlog, efter att de har uppdaterats.\
+  - Har vissa delar klarats av?\
+  - Skall vi ha en ny tidsuppskattning?\
+  - Vad behövs för att vi skall klara detta issue nästa gång?\
+* Har det kommit upp nya saker som skall läggas till på er backlog?\
+* Bedöm vad ni kan göra bättre i nästa sprint\
+
+
+### Sprint planning
+* Beskriv det övergripande målet med sprinten:\
+  -Namn:\
+  -Beskrivning:\
+  -Startdatum:\
+  -Slutdatum:\
+  -Backlogg: Se Time_estimates.txt\
+* Uppskatta tillgänglig tid för gruppen i nästa sprint.\
+* Vad ska ingå i nästa veckas sprint?\
+
+************************************************************************************************************************************************
+
+### <Mall för daily standup>
+
+## Daily 2022-04-26
+
+## Närvarande: Johanna, Anna, Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+*   Lyckades träna upp en modell som blev helt knas.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+*   Testa Google colabs, fixa med kanban, dela med oss av modeller och testa det.
+
+*   __Behöver jag hjälp med något?__\
+*   inte just nu :)
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+*   Jag lyckades träna upp en modell efter 4:e försöket.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+*   Testa Google colabs, fixa med kanban, dela med oss av modeller och testa det.
+
+*   __Behöver jag hjälp med något?__\
+*   inte just nu :)
+
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+
+*   __Vad ska jag göra till nästa avstämning?__\
+
+*   __Behöver jag hjälp med något?__\
+
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+*   Tränat en modell på på konturer, men resultatet blev ej som önskat :)
+
+*   __Vad ska jag göra till nästa avstämning?__\
+*   Testa Google colabs, fixa med kanban, dela med oss av modeller och testa det.
+
+*   __Behöver jag hjälp med något?__\
+*   inte just nu :)
+
+### Övrigt__\
+*
+************************************************************************************************************************************************
+## Daily 2022-04-25
+
 ## Närvarande: Johanna, MaryAnn, Elvir och Anna
 
 ### Anna
