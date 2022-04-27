@@ -67,34 +67,49 @@
 ### Övrigt__\
 *
 ************************************************************************************************************************************************
-## Daily 2022-04-25
 
-## Möte 2022-xx-xx
+## Daily 2022-04-27
 
-### Sprint review
-* Blev alla issues klara?\
-   - Om inte, varför?\
-* Icke klara issues återförs till backlog, efter att de har uppdaterats.\
-  - Har vissa delar klarats av?\
-  - Skall vi ha en ny tidsuppskattning?\
-  - Vad behövs för att vi skall klara detta issue nästa gång?\
-* Har det kommit upp nya saker som skall läggas till på er backlog?\
-* Bedöm vad ni kan göra bättre i nästa sprint\
+## Närvarande: Elvir, MaryAnn, Anna, Johanna
 
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Tränade i Google Colab upp samma modell som jag försökte träna i PyCharm, funkade mycket bättre och mycket snabbare! Kollade på två tutorials om Yolo
+   version 5 och Roboflow. 
+*   __Vad ska jag göra till nästa avstämning?__\
+   Klona (till Colab?) ner YOLO-GitHubrepot. Följa tutorial kring installationen och börja leka lite i Roboflow.
+*   __Behöver jag hjälp med något?__\
+   Nope.
 
-### Sprint planning
-* Beskriv det övergripande målet med sprinten:\
-  -Namn:\
-  -Beskrivning:\
-  -Startdatum:\
-  -Slutdatum:\
-  -Backlogg: Se Time_estimates.txt\
-* Uppskatta tillgänglig tid för gruppen i nästa sprint.\
-* Vad ska ingå i nästa veckas sprint?\
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Tränade i Google Colab upp samma modell som jag försökte träna i PyCharm, funkade mycket bättre och mycket snabbare! Kollade på två tutorials om Yolo
+   version 5 och Roboflow. Började lägga tomater och bananer i datasetet.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Klona (till Colab?) ner YOLO-GitHubrepot. Följa tutorial kring installationen och börja leka lite i Roboflow.
+*   __Behöver jag hjälp med något?__\
+   Nope.
 
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Var sjuk men jobbade lite ändå. Fick färdigt CNN PyTorch lathund på Colab.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Klona (till Colab?) ner YOLO-GitHubrepot. Följa tutorial kring installationen och börja leka lite i Roboflow.
+*   __Behöver jag hjälp med något?__\
+   Nope.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Tränade i Google Colab upp samma modell som jag försökte träna i PyCharm, funkade mycket bättre och mycket snabbare! Kollade på två tutorials om Yolo
+   version 5 och Roboflow. 
+*   __Vad ska jag göra till nästa avstämning?__\
+   Klona (till Colab?) ner YOLO-GitHubrepot. Följa tutorial kring installationen och börja leka lite i Roboflow.
+*   __Behöver jag hjälp med något?__\
+   Nope.
+   
+### Övrigt__\
+* Grattis till lägenheten Anna!!!
 ************************************************************************************************************************************************
-
-### <Mall för daily standup>
 
 ## Daily 2022-04-26
 
