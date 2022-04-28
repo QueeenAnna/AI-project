@@ -66,6 +66,54 @@
 
 ### Övrigt__\
 *
+
+************************************************************************************************************************************************
+
+## Daily 2022-04-28
+
+## Närvarande: Johanna, MaryAnn, Elvir och Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Kolla på en tutorial om YOLOv5 och klonade ner repot samt påbörjade träning av modell, körde via google colab vilket funkade bra.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Fortsätta att läsa mer om YOLOv5, studera koden från igår, experimentera och se om det går att förbättra den.
+
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Kolla på en tutorial om YOLOv5 och klonade ner repot samt påbörjade träning av modell, körde via jupyter men det gick inte så bra. 
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Fortsätta att läsa mer om YOLOv5, studera koden från igår, experimentera och se om det går att förbättra den.
+
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Kollade på tutorial om YOLOv5 och google colab.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Fortsätta att läsa mer om YOLOv5, studera koden från igår, experimentera och se om det går att förbättra den.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Kolla på en tutorial om YOLOv5 och klonade ner repot samt påbörjade träning av modell, körde via google colab vilket funkade bra.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+Fortsätta att läsa mer om YOLOv5, studera koden från igår, experimentera och se om det går att förbättra den. 
+
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Övrigt__\
+* Anna och Joahnna tränade på exakt samma dataset och kod via google colab men fick olika resultat, varför blir det så?
 ************************************************************************************************************************************************
 
 ## Daily 2022-04-27
