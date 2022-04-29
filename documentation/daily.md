@@ -84,7 +84,7 @@
    
 ### Elvir
 *   __Vad har jag gjort sedan avstämningen igår?__\
-      Läste om YOLOv5 video och hur det ska fungerar.
+      Läste om YOLOv5 video och hur det ska fungera.
 
 *   __Vad ska jag göra till nästa avstämning?__\
      Kolla hur man kopplar video/film & camera med YOLOv5.
