@@ -66,6 +66,55 @@
 
 ### Övrigt__\
 *
+************************************************************************************************************************************************
+
+## Daily 2022-04-29
+
+## Närvarande: Anna, Elvir, Johanna & MaryAnn
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+     Läste om YOLOv5, har 5 olika modeller & fortsätt med S model.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+    Kolla hur man kopplar video/film & camera med YOLOv5.
+
+*   __Behöver jag hjälp med något?__\
+      Nej
+   
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+      Läste om YOLOv5 video och hur det ska fungerar.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+     Kolla hur man kopplar video/film & camera med YOLOv5.
+
+*   __Behöver jag hjälp med något?__\
+      Nej
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+     Läste om Colab & Yolov5.
+     
+*   __Vad ska jag göra till nästa avstämning?__\
+     Fortsätt läsa om Colab & Yolov5. Gå genom föreläsning.
+
+*   __Behöver jag hjälp med något?__\
+      Nej
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+     Läste om weights & varför en modell kan bli olika om samma kod & dataset.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+      Kolla hur man kopplar video, film & camera med YOLOv5.
+
+*   __Behöver jag hjälp med något?__\
+      Nej
+
+### Övrigt__\
+
+*  Johanna berättade om vad hon har läste om weights & varför en modell kan bli olika om samma kod & dataset. 
 
 ************************************************************************************************************************************************
 
