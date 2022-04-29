@@ -114,7 +114,7 @@
 
 ### Övrigt__\
 
-*  Johanna berättade om vad hon har läste om weights & varför en modell kan bli olika om samma kod & dataset. 
+*  Johanna berättade om vad hon har läst om weights & varför en modell kan bli olika med samma kod & dataset. 
 
 ************************************************************************************************************************************************
 
