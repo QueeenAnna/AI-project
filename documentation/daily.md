@@ -104,7 +104,7 @@
 
 ### Johanna
 *   __Vad har jag gjort sedan avstämningen igår?__\
-     Läste om weights & varför en modell kan bli olika om samma kod & dataset.
+     Läste om weights & varför en modell kan bli olika med samma kod & dataset.
 
 *   __Vad ska jag göra till nästa avstämning?__\
       Kolla hur man kopplar video, film & camera med YOLOv5.
