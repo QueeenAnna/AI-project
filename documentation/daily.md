@@ -22,7 +22,6 @@
   -Beskrivning:\
   -Startdatum:\
   -Slutdatum:\
-  -Backlogg: Se Time_estimates.txt\
 * Uppskatta tillgänglig tid för gruppen i nästa sprint.\
 * Vad ska ingå i nästa veckas sprint?\
 
@@ -66,6 +65,46 @@
 
 ### Övrigt__\
 *
+************************************************************************************************************************************************
+
+************************************************************************************************************************************************
+
+### <Mall för sprint review och sprint planning>
+
+## Möte 2022-05-02
+
+### Sprint review
+* Blev alla issues klara?\
+   - Om inte, varför?\
+   - Eftersom vi inte hade en sprint planning så hade vi inte satt upp några issues som skulle bli klara.
+* Icke klara issues återförs till backlog, efter att de har uppdaterats.\
+  - Har vissa delar klarats av?\
+  - Ja, vi lyckades få till modeller med detecto och sedan gav vi oss på yolov5 där vi fick det till att fungera i realtid. Vi har även utökat vårat dataset med mer och nya grönsaker. Vi har gjort research och lärt oss mer om detecto, yolo och google colabs.
+  - Skall vi ha en ny tidsuppskattning?\
+  - Vi hade ingen tidsuppskattning.
+  - Vad behövs för att vi skall klara detta issue nästa gång?\
+  - Det var ingen issue som vi planerat som inte blev klar.
+* Har det kommit upp nya saker som skall läggas till på er backlog?\
+  - Ja, vi behöver mer data till vårat dataset med mer variation, arbeta vidare med yolov5.
+* Bedöm vad ni kan göra bättre i nästa sprint\
+  -Planera en sprint samt uppskatta tid och dokumentera detta.
+
+
+### Sprint planning
+* Beskriv det övergripande målet med sprinten:\
+  - Namn:\
+   Improve model
+  - Beskrivning:\
+   Samla mer data samt skruva på lite parametrar.
+  - Startdatum:\
+   2022-05-02   
+  - Slutdatum:\
+   2022-05-06
+* Uppskatta tillgänglig tid för gruppen i nästa sprint.\
+  -
+* Vad ska ingå i nästa veckas sprint?\
+  Samla på oss data
+
 ************************************************************************************************************************************************
 
 ## Daily 2022-04-29
