@@ -101,7 +101,7 @@
   - Slutdatum:\
    2022-05-06
 * Uppskatta tillgänglig tid för gruppen i nästa sprint.\
-  -
+   
 * Vad ska ingå i nästa veckas sprint?\
   Samla på oss data
 
