@@ -65,11 +65,49 @@
 
 ### Övrigt__\
 *
-************************************************************************************************************************************************
 
 ************************************************************************************************************************************************
 
-### <Mall för sprint review och sprint planning>
+## Daily 2022-05-03
+
+## Närvarande: Anna, Elvir, MaryAnn, Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Ändrade så att vi kunde köra kod i script istället för terminalen och fixade så att vi kan stänga ner kamerafönstret med hjälp av tangentbordet. 
+*   __Vad ska jag göra till nästa avstämning?__\
+   Bygga en funktion som jämför det som finns i csv-filen med de labels vi får ut från exp-mappen.
+*   __Behöver jag hjälp med något?__\
+   Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Ändrade så att vi kunde köra kod i script istället för terminalen och fixade så att vi kan stänga ner kamerafönstret med hjälp av tangentbordet. 
+*   __Vad ska jag göra till nästa avstämning?__\
+   Få in yolov5-repot i vårt repo. Träna modellen även på gul lök.
+*   __Behöver jag hjälp med något?__\
+   Nej.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Körde scriptet och fick det att funka med mobilen. Förberedde recept att jämföra med.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Fixar "recept" med de olika ingredienserna (banan, morot, tomat, gul lök) som finns i modellen i olika kombinationer som .csv. 
+*   __Behöver jag hjälp med något?__\
+   Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixade så att vi kan hitta labels från det som modellen har detekterat och läsa in dem i en Counter.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Fixa översättningstabell från labels till ingredienser.
+*   __Behöver jag hjälp med något?__\
+   Nej.
+   
+### Övrigt__\
+* Vi glömde göra dailyn efter gårdagens sprint review och sprint planning.
+* Mycket tid gick åt att i grupp diskutera fortsättningen och fick hjälp med det av Joakim.
+************************************************************************************************************************************************
 
 ## Möte 2022-05-02
 
