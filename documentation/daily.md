@@ -100,7 +100,7 @@
 *   __Vad har jag gjort sedan avstämningen igår?__\
    Fixade så att vi kan hitta labels från det som modellen har detekterat och läsa in dem i en Counter.
 *   __Vad ska jag göra till nästa avstämning?__\
-   Fixa översättningstabell från labels till ingredienser.
+   Fixa översättningstabell från labels till ingredienser och parprogrammera med Anna.
 *   __Behöver jag hjälp med något?__\
    Nej.
    
