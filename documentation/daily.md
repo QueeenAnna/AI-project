@@ -67,7 +67,44 @@
 *
 
 ************************************************************************************************************************************************
+## Daily 2022-04-04
 
+## Närvarande: Elvir, Johanna, MaryAnn och Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Kodat tillsammas med Elvir och Joahnna i omgångar, en funktion som hämtar vilka grönsaker som modellen har upptäckt när vi filmar och en funktion som jämför labels med ingredienserna i receptfilen(RAW_recipes). 
+*   __Vad ska jag göra till nästa avstämning?__\
+
+*   __Behöver jag hjälp med något?__\
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Försökte fixa med Github men gick sådär. Tränat upp 2 modeller som innehåller fler råvaror. Lyssnat på när Johanna och Anna har kodat.
+*   __Vad ska jag göra till nästa avstämning?__\
+Fixa med Github - få bort yolov5mappen och lägga in den på nytt i ett eget repository.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixade en csv-fil med påhittade recept.
+*   __Vad ska jag göra till nästa avstämning?__\
+Testa funktionerna som Johanna, Elvir och Anna kodade igår mot csv-filen med påhittade recept.
+*   __Behöver jag hjälp med något?__\
+
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Tog en liten film på grönsaker. Kodat tillsammas med Elvir och Anna i omgångar, en funktion som hämtar vilka grönsaker som modellen har upptäckt när vi filmar och en funktion som jämför labels med ingredienserna i receptfilen(RAW_recipes). 
+*   __Vad ska jag göra till nästa avstämning?__\
+
+*   __Behöver jag hjälp med något?__\
+
+### Övrigt__\
+*
+
+************************************************************************************************************************************************
 ## Daily 2022-05-03
 
 ## Närvarande: Anna, Elvir, MaryAnn, Johanna
