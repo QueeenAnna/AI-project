@@ -1,0 +1,26 @@
+<annotation>
+	<folder>training</folder>
+	<filename>onion_contour_12.jpg</filename>
+	<path>C:\Code\ML och DL\Lecture 220411\imgs\cucumber\training\onion_contour_12.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1476</width>
+		<height>1107</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>onion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>691</xmin>
+			<ymin>547</ymin>
+			<xmax>888</xmax>
+			<ymax>850</ymax>
+		</bndbox>
+	</object>
+</annotation>

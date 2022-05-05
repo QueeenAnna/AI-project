@@ -1,0 +1,26 @@
+<annotation>
+	<folder>training</folder>
+	<filename>cucumber_contour25.jpg</filename>
+	<path>C:\Code\ML och DL\Lecture 220411\imgs\cucumber\training\cucumber_contour25.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>537</width>
+		<height>403</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cucumber</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>98</xmin>
+			<ymin>237</ymin>
+			<xmax>537</xmax>
+			<ymax>358</ymax>
+		</bndbox>
+	</object>
+</annotation>

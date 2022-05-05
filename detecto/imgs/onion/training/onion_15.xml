@@ -1,0 +1,26 @@
+<annotation>
+	<folder>onion</folder>
+	<filename>onion_15.jpg</filename>
+	<path>C:\Code\ML och DL\Lecture 220411\imgs\onion\onion_15.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>onion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>297</xmin>
+			<ymin>130</ymin>
+			<xmax>556</xmax>
+			<ymax>380</ymax>
+		</bndbox>
+	</object>
+</annotation>
