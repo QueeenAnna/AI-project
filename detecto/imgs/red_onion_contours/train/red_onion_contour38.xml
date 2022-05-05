@@ -1,0 +1,38 @@
+<annotation>
+	<folder>red_onion_contours</folder>
+	<filename>red_onion_contour38.jpg</filename>
+	<path>C:\Code\ML och DL\Lecture 220411\imgs\red_onion_contours\red_onion_contour38.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>990</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_onion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>263</xmin>
+			<ymin>250</ymin>
+			<xmax>721</xmax>
+			<ymax>762</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_onion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>21</xmin>
+			<ymin>253</ymin>
+			<xmax>388</xmax>
+			<ymax>657</ymax>
+		</bndbox>
+	</object>
+</annotation>

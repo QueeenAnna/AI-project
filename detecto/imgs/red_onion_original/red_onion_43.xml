@@ -1,0 +1,38 @@
+<annotation>
+	<folder>red_onion</folder>
+	<filename>red_onion_43.jpg</filename>
+	<path>C:\Code\ML och DL\Lecture 220411\imgs\red_onion_original\red_onion_43.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>536</width>
+		<height>357</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red_onion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>194</xmin>
+			<ymin>141</ymin>
+			<xmax>379</xmax>
+			<ymax>312</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red_onion</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>118</xmin>
+			<ymin>19</ymin>
+			<xmax>339</xmax>
+			<ymax>128</ymax>
+		</bndbox>
+	</object>
+</annotation>
