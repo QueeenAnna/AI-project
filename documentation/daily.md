@@ -65,6 +65,53 @@
 
 ### Övrigt__\
 *
+************************************************************************************************************************************************
+
+## Daily 2022-05-05
+
+## Närvarande: Johanna, Anna och Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixat så att man kan koppla det man hittar via kameran och jämföra det med recept från food.com
+*   __Vad ska jag göra till nästa avstämning?__\
+   Pusha upp de sakerna vi gjort till vårat github projekt, göra lite research om kivy för att kunna få till en fungerande app
+
+*   __Behöver jag hjälp med något?__\
+   Nej, inte just nu
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixat med problemen jag hade med github, samt pushat upp yolov5
+*   __Vad ska jag göra till nästa avstämning?__\
+   Pusha upp de sakerna vi gjort till vårat github projekt, göra lite research om kivy för att kunna få till en fungerande app
+
+*   __Behöver jag hjälp med något?__\
+   Nej, inte just nu
+
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Skrivit recept i en CSV fil och delat den med gruppen
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   
+*   __Behöver jag hjälp med något?__\
+   Nej, inte just nu
+
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixat så att man kan koppla det man hittar via kameran och jämföra det med recept från food.com
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   Pusha upp de sakerna vi gjort till vårat github projekt, göra lite research om kivy för att kunna få till en fungerande app   
+
+*   __Behöver jag hjälp med något?__\
+   Nej, inte just nu
+
+### Övrigt__\
+* MaryAnn är sjuk idag
 
 ************************************************************************************************************************************************
 ## Daily 2022-04-04
