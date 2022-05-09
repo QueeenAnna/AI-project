@@ -67,6 +67,74 @@
 *
 ************************************************************************************************************************************************
 
+## Möte 2022-xx-xx
+
+### Sprint review
+* Blev alla issues klara?\
+   - Om inte, varför?\
+* Icke klara issues återförs till backlog, efter att de har uppdaterats.\
+  - Har vissa delar klarats av?\
+  - Skall vi ha en ny tidsuppskattning?\
+  - Vad behövs för att vi skall klara detta issue nästa gång?\
+* Har det kommit upp nya saker som skall läggas till på er backlog?\
+* Bedöm vad ni kan göra bättre i nästa sprint\
+
+
+### Sprint planning
+* Beskriv det övergripande målet med sprinten:\
+  -Namn:\
+  -Beskrivning:\
+  -Startdatum:\
+  -Slutdatum:\
+* Uppskatta tillgänglig tid för gruppen i nästa sprint.\
+* Vad ska ingå i nästa veckas sprint?\
+
+************************************************************************************************************************************************
+
+
+## Daily 2022-05-09
+
+## Närvarande: Anna, Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixade med github och kollade på tutorial om kivy.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   börja med kivy
+
+*   __Behöver jag hjälp med något?__\
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixade med github och kollade på tutorial om kivy.
+   
+*   __Vad ska jag göra till nästa avstämning?__\
+   börja med kivy
+   
+*   __Behöver jag hjälp med något?__\
+
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+
+*   __Vad ska jag göra till nästa avstämning?__\
+
+*   __Behöver jag hjälp med något?__\
+
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixade med github och kollade på tutorial om kivy.
+*   __Vad ska jag göra till nästa avstämning?__\
+
+*   __Behöver jag hjälp med något?__\
+
+### Övrigt__\
+* Johanna och MaryAnn har giltlig frånvaro idag
+************************************************************************************************************************************************
+
+
 ## Daily 2022-05-05
 
 ## Närvarande: Johanna, Anna och Elvir
