@@ -67,28 +67,46 @@
 *
 ************************************************************************************************************************************************
 
-## Möte 2022-xx-xx
+## Daily 2022-05-10
 
-### Sprint review
-* Blev alla issues klara?\
-   - Om inte, varför?\
-* Icke klara issues återförs till backlog, efter att de har uppdaterats.\
-  - Har vissa delar klarats av?\
-  - Skall vi ha en ny tidsuppskattning?\
-  - Vad behövs för att vi skall klara detta issue nästa gång?\
-* Har det kommit upp nya saker som skall läggas till på er backlog?\
-* Bedöm vad ni kan göra bättre i nästa sprint\
+## Närvarande: Elvir, Johanna
 
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Lade in ägg och aubergine i datasetet.
 
-### Sprint planning
-* Beskriv det övergripande målet med sprinten:\
-  -Namn:\
-  -Beskrivning:\
-  -Startdatum:\
-  -Slutdatum:\
-* Uppskatta tillgänglig tid för gruppen i nästa sprint.\
-* Vad ska ingå i nästa veckas sprint?\
+*   __Vad ska jag göra till nästa avstämning?__\
+   Sjuk, men kommer eventuellt efter lunch om hon mår bättre.
+*   __Behöver jag hjälp med något?__\
+   Nej.
 
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Lade in broccoli och mjölk (framsidan). 
+   
+*   __Vad ska jag göra till nästa avstämning?__\
+   Leka runt lite med kivy.
+*   __Behöver jag hjälp med något?__\
+   Nej.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Sjuk
+*   __Vad ska jag göra till nästa avstämning?__\
+   -
+*   __Behöver jag hjälp med något?__\
+   Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Vabb
+*   __Vad ska jag göra till nästa avstämning?__\
+   Leka runt lite med kivy.
+*   __Behöver jag hjälp med något?__\
+   Nej.
+   
+### Övrigt__\
+* MaryAnn och Anna sjuka.
 ************************************************************************************************************************************************
 
 
