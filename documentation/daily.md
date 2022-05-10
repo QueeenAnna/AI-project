@@ -93,7 +93,7 @@
 *   __Vad har jag gjort sedan avstämningen igår?__\
    Sjuk
 *   __Vad ska jag göra till nästa avstämning?__\
-   -
+   
 *   __Behöver jag hjälp med något?__\
    Nej.
 
