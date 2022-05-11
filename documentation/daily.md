@@ -66,7 +66,44 @@
 ### Övrigt__\
 *
 ************************************************************************************************************************************************
+## Daily 2022-05-11
 
+## Närvarande: Johanna, Elvir och Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Sjuk.
+*   __Vad ska jag göra till nästa avstämning?__\
+Lösa problemet med att få kamrean att fungera med hjälp av openCV.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Lagt till mer data i datasetet och påbörjat mobilapplikationen med kivy, stötte på problem med yolov5 och kivy, vill använda kameran samidigt på något sätt.
+*   __Vad ska jag göra till nästa avstämning?__\
+Lösa problemet med att få kamrean att fungera med hjälp av openCV.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Vila.
+*   __Vad ska jag göra till nästa avstämning?__\
+Vila.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Kollat på hur man kan få runda knappar i Kivy, påbörjat mobilapplikationen med kivy, stötte på problem med yolov5 och kivy, vill använda kameran samidigt på något sätt.
+*   __Vad ska jag göra till nästa avstämning?__\
+Lösa problemet med att få kamrean att fungera med hjälp av openCV.
+*   __Behöver jag hjälp med något?__\
+Nej.
+### Övrigt__\
+*
+************************************************************************************************************************************************
 ## Daily 2022-05-10
 
 ## Närvarande: Elvir, Johanna
