@@ -66,6 +66,45 @@
 ### Övrigt__\
 *
 ************************************************************************************************************************************************
+## Daily 2022-05-12
+
+## Närvarande: Anna, Elvir och Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Vilat.
+*   __Vad ska jag göra till nästa avstämning?__\
+Vila.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### Övrigt__\
+* Nej. Vi är grymma och jobbar på som vanligt!!!
+************************************************************************************************************************************************
 ## Daily 2022-05-11
 
 ## Närvarande: Johanna, Elvir och Anna
