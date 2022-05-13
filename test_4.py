@@ -11,8 +11,9 @@ import torchvision
 import matplotlib.pyplot as plt
 import seaborn as sn
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='trained_model/model4.3.pt')
-
+# model = torch.hub.load('ultralytics/yolov5', 'custom', path='trained_model/model4.3.pt')
+model = './trained_model/state_dict_model4.3.pt'
+model.load_state_dict(torch.load('./trained_model/state_dict_model4.3.pt'))
 im1 = Image.open('./detecto/imgs/onion/test/onion_2.jpg')
 results = model(im1)
 results.print()

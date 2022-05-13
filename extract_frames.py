@@ -1,23 +1,10 @@
+from modules import *
 from kivy.app import App
 from kivy.uix.image import Image
-from kivy.graphics.texture import Texture
 from kivy.clock import Clock
-import numpy as np
-import os
 import cv2
-import torch
-import cv2
-import matplotlib as matplotlib
-import pandas
 import torch
 
-import requests
-import yaml
-from matplotlib import pyplot as plt
-from tqdm import tqdm
-import torchvision
-import matplotlib.pyplot as plt
-import seaborn as sn
 
 vid = cv2.VideoCapture(0)
 
