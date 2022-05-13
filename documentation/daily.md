@@ -105,6 +105,84 @@ Vi jobbar tillsammans.
 ### Övrigt__\
 * Nej. Vi är grymma och jobbar på som vanligt!!!
 ************************************************************************************************************************************************
+## Daily 2022-05-13
+
+## Närvarande: Anna, Elvir, Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixade en funktion som plockar ut koordinater och etikett (label) ur klassificerade bilder. Tyvärr går den långsamt.
+*   __Vad ska jag göra till nästa avstämning?__\
+Få ovanstående funktion att fungera snabbare.
+*   __Behöver jag hjälp med något?__\
+Av Joakim.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixade en funktion som plockar ut koordinater och etikett (label) ur klassificerade bilder. Tyvärr går den långsamt.
+*   __Vad ska jag göra till nästa avstämning?__\
+Få ovanstående funktion att fungera snabbare.
+*   __Behöver jag hjälp med något?__\
+Av Joakim.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Vilat.
+*   __Vad ska jag göra till nästa avstämning?__\
+Vilat.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixade en funktion som plockar ut koordinater och etikett (label) ur klassificerade bilder. Tyvärr går den långsamt.
+*   __Vad ska jag göra till nästa avstämning?__\
+Få ovanstående funktion att fungera snabbare.
+*   __Behöver jag hjälp med något?__\
+Av Joakim.
+
+### Övrigt__\
+* Nej.
+************************************************************************************************************************************************
+## Daily 2022-05-12
+
+## Närvarande: Anna, Elvir och Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Vilat.
+*   __Vad ska jag göra till nästa avstämning?__\
+Vila.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### Övrigt__\
+* Nej. Vi är grymma och jobbar på som vanligt!!!
+************************************************************************************************************************************************
 ## Daily 2022-05-11
 
 ## Närvarande: Johanna, Elvir och Anna
