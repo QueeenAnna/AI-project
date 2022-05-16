@@ -65,6 +65,51 @@
 
 ### Övrigt__\
 *
+
+************************************************************************************************************************************************
+
+### <Mall för daily standup>
+
+## Daily 2022-05-16
+
+## Närvarande: Johanna, Anna, Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Försökt ta reda på hur man använder state_dict, testat olika sätt att implementera i vår kod, men fick inte förväntat resultat.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   Lägga in mer data
+*   __Behöver jag hjälp med något?__\
+   Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Försökt göra yolov5 snabbare
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   Lägga in mer data
+*   __Behöver jag hjälp med något?__\
+   Nej.
+
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+
+*   __Vad ska jag göra till nästa avstämning?__\
+
+*   __Behöver jag hjälp med något?__\
+
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Försökte göra applikationen snabbare och få in bilderna i rätt tensorformat.
+*   __Vad ska jag göra till nästa avstämning?__\
+   vabbar och är sjuk idag men var med på dailyn :)
+*   __Behöver jag hjälp med något?__\
+   Nej.
+### Övrigt__\
+
 ************************************************************************************************************************************************
 ## Daily 2022-05-12
 
