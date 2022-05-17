@@ -47,15 +47,6 @@
 
 *   __Behöver jag hjälp med något?__\
 
-
-### MaryAnn
-*   __Vad har jag gjort sedan avstämningen igår?__\
-
-*   __Vad ska jag göra till nästa avstämning?__\
-
-*   __Behöver jag hjälp med något?__\
-
-
 ### Johanna
 *   __Vad har jag gjort sedan avstämningen igår?__\
 
@@ -67,8 +58,40 @@
 *
 
 ************************************************************************************************************************************************
+## Daily 2022-05-17
 
-### <Mall för daily standup>
+## Närvarande: Elvir, Johanna och Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+    Lagt till mer data i Roboflow.
+    
+*   __Vad ska jag göra till nästa avstämning?__\
+    Lägga in mer data i Roboflow, försöka bocka av alla råvaror från listan.
+*   __Behöver jag hjälp med något?__\
+    Nej.
+    
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+    Lagt till mer data i Roboflow.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Lägga in mer data i Roboflow, försöka bocka av alla råvaror från listan
+   
+*   __Behöver jag hjälp med något?__\
+    Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+    Vabbat och va sjuk.
+*   __Vad ska jag göra till nästa avstämning?__\
+    Lägga in mer data i Roboflow, försöka bocka av alla råvaror från listan
+*   __Behöver jag hjälp med något?__\
+    Nej.
+    
+### Övrigt__\
+* MaryAnn har valt att hoppa av.
+
+************************************************************************************************************************************************
 
 ## Daily 2022-05-16
 
