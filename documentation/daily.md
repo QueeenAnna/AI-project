@@ -58,6 +58,39 @@
 *
 
 ************************************************************************************************************************************************
+## Daily 2022-xx-xx
+
+## Närvarande: Johanna, Anna och Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Lagt in mer råvaror och satt etikett på dessa :)
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ometikettera råvaror i förpackning, träna upp en modell
+
+*   __Behöver jag hjälp med något?__\
+   Nej :)
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Lagt in mer råvaror och satt etikett på dessa :)
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ometikettera råvaror i förpackning, träna upp en modell
+
+*   __Behöver jag hjälp med något?__\
+   Nej :)
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Lagt in mer råvaror och satt etikett på dessa :)
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ometikettera råvaror i förpackning, träna upp en modell
+*   __Behöver jag hjälp med något?__\
+   Nej :)
+### Övrigt__\
+*
+
+************************************************************************************************************************************************
 ## Daily 2022-05-17
 
 ## Närvarande: Elvir, Johanna och Anna
