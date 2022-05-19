@@ -64,27 +64,28 @@
 
 ### Anna
 *   __Vad har jag gjort sedan avstämningen igår?__\
-
+Ändrade labels på produkter i förpackning, tränade ny modell (85 epoker) som vi testade med hyfsat bra resultat.
 *   __Vad ska jag göra till nästa avstämning?__\
-
+Ändra vissa labels som krånglade igår. Ost, kyckling, lax, bönor, morot, aubergine, potatis, paprika, linser (förutom röda). Träna upp en ny modell efteråt.
 *   __Behöver jag hjälp med något?__\
-
+Nej.
 ### Elvir
 *   __Vad har jag gjort sedan avstämningen igår?__\
-
+Ändrade labels på produkter i förpackning, startade en modellträning men något var fel så den hann inte bli färdig.
 *   __Vad ska jag göra till nästa avstämning?__\
-
+Ändra vissa labels som krånglade igår. Ost, kyckling, lax, bönor, morot, aubergine, potatis, paprika, linser (förutom röda). Träna upp en ny modell efteråt.
 *   __Behöver jag hjälp med något?__\
-
+Nej.
 ### Johanna
 *   __Vad har jag gjort sedan avstämningen igår?__\
-
+Ändrade labels på produkter i förpackning, agerade scenograf inför testning av Annas modell och var sjuk.
 *   __Vad ska jag göra till nästa avstämning?__\
+Jobba mer med receptdelen, vabb och vara sjuk. 
 
 *   __Behöver jag hjälp med något?__\
-
+Nej.
 ### Övrigt__\
-*
+* Vi konsulterade Joakim igår angående den nya modellen och hur vi skulle jobba vidare. Det vi kom fram till var att vi ska fokusera på att få färdigt själva kärnan i vår idé med receptfunktionen samt att fixa till vissa delar i datasetet (ost, bönor m.m.) som gav felaktiga resultat.
 
 ************************************************************************************************************************************************
 ## Daily 2022-05-18
