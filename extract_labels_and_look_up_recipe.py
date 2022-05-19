@@ -1,3 +1,4 @@
+import glob
 import os
 import csv
 import webbrowser
@@ -6,7 +7,13 @@ import re
 
 
 def get_labels():
-    directory = 'yolov5.0/runs/detect/exp7/labels'  # Change to /exp/labels
+    # Count number of exp folders in run
+    n_exp_folders = str(len(glob.glob('yolov5.0/runs/detect/exp*')))
+    # If 1 folder is just named exp
+    if n_exp_folders == '1':
+        n_exp_folders == ''
+    # Get latest exp folder
+    directory = f'yolov5.0/runs/detect/exp' + n_exp_folders + '/labels'
     rows = []
     for filename in os.listdir(directory):
         if filename.endswith('.txt'):
