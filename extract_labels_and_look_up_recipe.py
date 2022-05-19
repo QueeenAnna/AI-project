@@ -6,16 +6,16 @@ import re
 
 
 def get_labels():
-    directory = 'yolov5/runs/detect/exp5/labels'  # Change to /exp/labels
+    directory = 'yolov5.0/runs/detect/exp7/labels'  # Change to /exp/labels
     rows = []
     for filename in os.listdir(directory):
         if filename.endswith('.txt'):
             with open(directory + '/' + filename, 'r') as f:
                 rows += f.readlines()
 
-    c = Counter([int(row.split()[0]) for row in rows])
-
-    return c
+    count_all = Counter([int(row.split()[0]) for row in rows])
+    count_above_10 = Counter({k: c for k, c in count_all.items() if c >= 10})
+    return count_above_10
 
 
 def get_recipes(labels, c):
@@ -56,7 +56,11 @@ def convert_to_url(name, _id):
 
 def main():
     # os.system("python detect.py --source 1 --weights ./trained_model/best.pt --save-txt")
-    labels = ['salt', 'carrot', 'onion', 'tomato']
+    # python detect.py --source 1 --weights ./train_models/model_85_epochs.pt --
+    labels = ['asparagus', 'banana', 'beans', 'bell pepper', 'broccoli', 'carrot', 'cheese', 'chicken', 'chili',  # 0-8
+              'cucumber', 'egg', 'eggplant', 'garlic', 'ginger', 'lemon', 'lentils', 'milk', 'minced_meat',  # 9-17
+              'olive_label', 'olives', 'onion', 'potato', 'red_onion', 'rhubarb', 'rice', 'salmon', 'spaghetti',  # 18-26
+              'spinach', 'sun-dried_tomatoes', 'sun-dried_tomatoes_label', 'tomato_sauce', 'tomato', 'whipping_cream']
     c = get_labels()
     recipes = get_recipes(labels, c)
 

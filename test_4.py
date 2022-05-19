@@ -82,8 +82,8 @@ im1 = Image.open('./detecto/imgs/onion/test/onion_2.jpg')
 transform = transforms.Compose([transforms.PILToTensor()])
 
 img_tensor = transform(im1)
-img_tensor = img_tensor.float()
-shape = img_tensor.shape
+# img_tensor = img_tensor.float()
+# shape = img_tensor.shape
 
 # print(img_tensor)
 
