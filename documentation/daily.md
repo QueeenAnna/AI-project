@@ -58,7 +58,36 @@
 *
 
 ************************************************************************************************************************************************
-## Daily 2022-xx-xx
+## Daily 2022-05-19
+
+## Närvarande: Elvir, Anna, Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+
+*   __Vad ska jag göra till nästa avstämning?__\
+
+*   __Behöver jag hjälp med något?__\
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+
+*   __Vad ska jag göra till nästa avstämning?__\
+
+*   __Behöver jag hjälp med något?__\
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+
+*   __Vad ska jag göra till nästa avstämning?__\
+
+*   __Behöver jag hjälp med något?__\
+
+### Övrigt__\
+*
+
+************************************************************************************************************************************************
+## Daily 2022-05-18
 
 ## Närvarande: Johanna, Anna och Elvir
 
