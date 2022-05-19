@@ -102,6 +102,7 @@ def sort_by_category(recipes):
 
 
 def show_top_recipes(sorted_recipes, ingredients):
+    for i in range(5):
     print('These are the top five recipes for you:\n'
                        f'1. {sorted_recipes[0]["name"]}\n'
                        f'2. {sorted_recipes[1]["name"]}\n'
@@ -112,7 +113,6 @@ def show_top_recipes(sorted_recipes, ingredients):
     convert_to_url(sorted_recipes[choice-1]['name'], sorted_recipes[choice-1]['id'])
 
 
-
 def convert_to_url(name, _id):
     base = 'https://www.food.com/recipe/'
     name = re.sub('[^A-Za-z0-9\-\s]+', '', name)
@@ -120,7 +120,6 @@ def convert_to_url(name, _id):
 
     url = f'{base}{name}-{_id}'
     webbrowser.open(url)
-
 
 
 def main():
