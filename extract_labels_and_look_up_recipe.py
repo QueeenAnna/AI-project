@@ -1,3 +1,4 @@
+import glob
 import os
 import csv
 import webbrowser
@@ -6,7 +7,13 @@ import re
 
 
 def get_labels():
-    directory = 'yolov5.0/runs/detect/exp7/labels'  # Change to /exp/labels
+    # Count number of exp folders in run
+    n_exp_folders = str(len(glob.glob('yolov5.0/runs/detect/exp*')))
+    # If 1 folder is just named exp
+    if n_exp_folders == '1':
+        n_exp_folders == ''
+    # Get latest exp folder
+    directory = f'yolov5.0/runs/detect/exp' + n_exp_folders + '/labels'
     rows = []
     for filename in os.listdir(directory):
         if filename.endswith('.txt'):
@@ -94,6 +101,18 @@ def sort_by_category(recipes):
     return sorted_recipes
 
 
+def show_top_recipes(sorted_recipes, ingredients):
+    print('These are the top five recipes for you:\n'
+                       f'1. {sorted_recipes[0]["name"]}\n'
+                       f'2. {sorted_recipes[1]["name"]}\n'
+                       f'3. {sorted_recipes[2]["name"]}\n'
+                       f'4. {sorted_recipes[3]["name"]}\n'
+                       f'5. {sorted_recipes[4]["name"]}\n')
+    choice = int(input('Which recipe would you like to be directed to? '))
+    convert_to_url(sorted_recipes[choice-1]['name'], sorted_recipes[choice-1]['id'])
+
+
+
 def convert_to_url(name, _id):
     base = 'https://www.food.com/recipe/'
     name = re.sub('[^A-Za-z0-9\-\s]+', '', name)
@@ -114,7 +133,8 @@ def main():
     c = get_labels()
     recipes, ingredients = get_recipes(labels, c)
     sorted_recipes = sort_by_category(recipes)
-    convert_to_url(recipes[0]['name'], recipes[0]['id'])
+    show_top_recipes(sorted_recipes, ingredients)
+
 
 
 
