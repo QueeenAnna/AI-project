@@ -58,6 +58,37 @@
 *
 
 ************************************************************************************************************************************************
+## Daily 2022-05-20
+
+## Närvarande: Johanna, Elvir, Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Etiketterat om ost, bönor och aubergine. Tränat upp en ny model på 150 epoker.
+*   __Vad ska jag göra till nästa avstämning?__\
+    Testa den nya modellen.
+*   __Behöver jag hjälp med något?__\
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Etiketterat om mjölk och kyckling. Tränat upp en ny model på 150 epoker.
+   
+*   __Vad ska jag göra till nästa avstämning?__\
+   Testa den nya modellen.
+*   __Behöver jag hjälp med något?__\
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Vabbat. Fixat så att applikationen hittar senaste exp mappen, att användaren kan filterera kategorier och skicka användaren vidare till urlen som användaren har valt. Har även fixat så att alla råvaror som har upptäckts färre än 10 ggr (kan ändras) hamnar inte i listan.
+   
+*   __Vad ska jag göra till nästa avstämning?__\
+   Testa den nya modellen.
+*   __Behöver jag hjälp med något?__\
+
+### Övrigt__\
+*
+
+************************************************************************************************************************************************
 ## Daily 2022-05-19
 
 ## Närvarande: Elvir, Anna, Johanna
