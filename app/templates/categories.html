@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 
-{% block content12 %}
+
+{% block content8 %}
     <div class="content-section overflow-auto" style="max-height: inherit">
 
-        <h3>Chose one or more categories to filter the result</h3>
+        <h3 style="; text-align: center">Choose one or more categories to filter the result</h3>
 
-        <form id="categories" action="{{url_for("bp_open.categories_post")}}" method="POST">
+        <form id="categories" action="{{url_for("bp_open.categories_post")}}" method="POST" style="display: table">
             {% for category in categories %}
                 <div class="checkbox-container">
                     <input type="checkbox" id="{{ loop.index }}" name="{{ category }}" value="{{ category }}">
@@ -42,3 +43,4 @@ function sendIt() {
     chosenForm.submit();
 }
 </script>
+{% endblock %}

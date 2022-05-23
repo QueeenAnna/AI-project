@@ -48,6 +48,8 @@ class User:
                           'id': 0,
                           'description': '',
                           'ingredients': [],
+                          'submitted': datetime.date,  # ???
+                          'minutes': 0,
                           'category': []}
                 for i in ingredients:
                     if i in row[10]:
@@ -154,10 +156,6 @@ def main():
     recipes, ingredients = user.get_recipes(labels, c)  # ingredients may be unnecessary
     sorted_recipes = user.sort_by_category(recipes)
     user.show_top_recipes(sorted_recipes)
-
-    # print(recipes)
-
-    # print(f'\nFound {len(recipes)} recipes out of 180000 recipes')
 
 
 if __name__ == '__main__':
