@@ -56,7 +56,73 @@
 
 ### Övrigt__\
 *
+************************************************************************************************************************************************
 
+### <Mall för daily standup>
+
+## Möte 2022-05-23
+### Sprint review
+* Blev alla issues klara?\
+   - Om inte, varför?\
+   Nej, vissa saker tog längre tid än vi trodde. Vi la mycket tid på Kivy som vi beslutade oss om att inte använda. Mycket research och det tog mycket av våran tid.
+* Icke klara issues återförs till backlog, efter att de har uppdaterats.\
+  - Har vissa delar klarats av?\
+  Ja
+  - Skall vi ha en ny tidsuppskattning?\
+  Nej
+  - Vad behövs för att vi skall klara detta issue nästa gång?\
+  Vi har nya issues
+* Har det kommit upp nya saker som skall läggas till på er backlog?\
+  Ja
+* Bedöm vad ni kan göra bättre i nästa sprint\
+  Bättre på att tidsuppskatta innan och efter. 
+
+
+### Sprint planning
+* Beskriv det övergripande målet med sprinten:\ 
+  Bli klara med projektet och lägga till flask.
+  -Namn:\
+  Flask
+  -Beskrivning:\
+  Lägga till flask och bli klar med vårat projekt, eventuellt lägga till en databas.
+  -Startdatum:\
+  2022-05-23
+  -Slutdatum:\
+  2022-05-31
+  
+* Vad ska ingå i nästa veckas sprint?\
+Flask, kanske MongoDB, CSS, template, städa upp i strukturen
+## Daily 2022-05-23
+
+## Närvarande: Johanna, Anna och Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixade ost, paprika, bönor och linser i datasetet på roboflow. 
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ska få ihop en flaskapplikation.
+
+*   __Behöver jag hjälp med något?__\
+   Nej inte just nu.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixade bilderna på mjölk och grädde. Tränade upp en modell.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ska få ihop en flaskapplikation.
+   
+*   __Behöver jag hjälp med något?__\
+   Nej inte just nu.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   La till betygssättning(kanske behöver uppdateras) och la till händer i roboflow. Tränade upp en modell. La till objektorientering i vårt arbete.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ska få ihop en flaskapplikation.
+*   __Behöver jag hjälp med något?__\
+   Nej inte just nu.
+### Övrigt__\
+* Vi pratade med Joakim och kom fram till att vi ska använda oss av flask för att snygga till vår applikation.
 ************************************************************************************************************************************************
 ## Daily 2022-05-20
 
