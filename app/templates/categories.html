@@ -1,1 +1,44 @@
 {% extends "base.html" %}
+
+{% block content12 %}
+    <div class="content-section overflow-auto" style="max-height: inherit">
+
+        <h3>Chose one or more categories to filter the result</h3>
+
+        <form id="categories" action="{{url_for("bp_open.categories_post")}}" method="POST">
+            {% for category in categories %}
+                <div class="checkbox-container">
+                    <input type="checkbox" id="{{ loop.index }}" name="{{ category }}" value="{{ category }}">
+                    <label for="{{ loop.index }}">{{ category }}</label>
+                </div>
+            {% endfor %}
+
+            <div>
+                <input name="hiddenList" type="hidden" id="isHidden" />
+                <input type="submit" class="btn btn-primary" onclick="sendIt()" value="Show Recipes">
+            </div>
+        </form>
+    </div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+
+let chosenCategories = [];
+document.getElementById("categories").onsubmit = () => {
+    document.getElementById("isHidden").checked = JSON.stringify(chosenCategories)
+}
+function isChecked() {
+    let category = document.forms[0];
+    let category_array = [];
+    for (let i = 0; i < category.length; i++) {
+        if (category[i].checked) {
+            category_array.push(category[i].value);
+        }
+    }
+}
+
+
+function sendIt() {
+    let chosenForm = document.getElementById("categories");
+    chosenForm.submit();
+}
+</script>
