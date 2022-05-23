@@ -16,7 +16,7 @@ class User:
                           '> '))
         grade_dict = {'name': name,
                       'grade:': grade,
-                      'last_cooked': ''}
+                      'last_cooked': datetime.datetime.now()}
         self.grades.append(grade_dict)
 
     def get_labels(self):
