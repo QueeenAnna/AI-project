@@ -1,4 +1,8 @@
+import webbrowser
+
+import requests
 from flask import Blueprint, render_template, request, redirect, url_for
+from bs4 import BeautifulSoup
 
 from app.controllers import recipe_controller as rc
 
@@ -42,8 +46,20 @@ def recipes_get():
     return render_template('recipes.html')
 
 
+
+
+
 def main():
-    pass
+    # Code for getting recipe image with url
+    r = requests.get("https://www.food.com/recipe/red-lobster-cheddar-bay-biscuits-89684")
+    print(r.text)
+
+
+    soup = BeautifulSoup(r.text, "html.parser").find_all('div', attrs={
+        'class': 'recipe-default-image recipe-hero__item theme-gradient svelte-jlgald'})
+    image = soup[0].contents[1].attrs['src']
+    webbrowser.open(image)
+    print()
 
 
 if __name__ == '__main__':
