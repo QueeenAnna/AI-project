@@ -57,6 +57,37 @@
 ### Övrigt__\
 *
 ************************************************************************************************************************************************
+## Daily 2022-05-24
+
+## Närvarande: Elvir, Anna, Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Hållt på med index.html, gjort en grund för den och lagt till navbar i base.html samt fixat kod hur vi kan koppla webbkameran till Flask.
+*   __Vad ska jag göra till nästa avstämning?__\
+Kolla på tutorial om hur vi kan öppna vår modell i openCV och kolla om det går att implementera den i vår kod.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixade recipes.html. Hjälpte Anna med att bootstrap (index.html).
+*   __Vad ska jag göra till nästa avstämning?__\
+Kolla på tutorial om hur vi kan öppna vår modell i openCV samt skriva kod hur recipes.html tar emot information från categories.html.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixat categories.html samt skrivit kod för att leta reda på bilden på maträtterna på food.com.
+*   __Vad ska jag göra till nästa avstämning?__\
+Kolla hur vi kan göra en app som är en webbläsare. Sen jobba med Anna och Elvir med openCV.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Övrigt__\
+* Vi har beslutat att inte använda oss av en databas. Vi kommer heller inte att hantera inloggningar eller användare/anvädning, utan sökningarna får försvinna efter att de har gjorts.
+************************************************************************************************************************************************
 
 ### <Mall för daily standup>
 
