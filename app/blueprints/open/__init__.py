@@ -46,14 +46,10 @@ def recipes_get():
     return render_template('recipes.html')
 
 
-
-
-
 def main():
     # Code for getting recipe image with url
     r = requests.get("https://www.food.com/recipe/red-lobster-cheddar-bay-biscuits-89684")
     print(r.text)
-
 
     soup = BeautifulSoup(r.text, "html.parser").find_all('div', attrs={
         'class': 'recipe-default-image recipe-hero__item theme-gradient svelte-jlgald'})
