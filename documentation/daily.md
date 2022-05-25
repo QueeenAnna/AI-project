@@ -47,6 +47,137 @@
 
 *   __Behöver jag hjälp med något?__\
 
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+
+*   __Vad ska jag göra till nästa avstämning?__\
+
+*   __Behöver jag hjälp med något?__\
+
+### Övrigt__\
+*
+
+************************************************************************************************************************************************
+## Daily 2022-05-19
+
+## Närvarande: Elvir, Anna, Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Ändrade labels på produkter i förpackning, tränade ny modell (85 epoker) som vi testade med hyfsat bra resultat.
+*   __Vad ska jag göra till nästa avstämning?__\
+Ändra vissa labels som krånglade igår. Ost, kyckling, lax, bönor, morot, aubergine, potatis, paprika, linser (förutom röda). Träna upp en ny modell efteråt.
+*   __Behöver jag hjälp med något?__\
+Nej.
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Ändrade labels på produkter i förpackning, startade en modellträning men något var fel så den hann inte bli färdig.
+*   __Vad ska jag göra till nästa avstämning?__\
+Ändra vissa labels som krånglade igår. Ost, kyckling, lax, bönor, morot, aubergine, potatis, paprika, linser (förutom röda). Träna upp en ny modell efteråt.
+*   __Behöver jag hjälp med något?__\
+Nej.
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Ändrade labels på produkter i förpackning, agerade scenograf inför testning av Annas modell och var sjuk.
+*   __Vad ska jag göra till nästa avstämning?__\
+Jobba mer med receptdelen, vabb och vara sjuk. 
+
+*   __Behöver jag hjälp med något?__\
+Nej.
+### Övrigt__\
+* Vi konsulterade Joakim igår angående den nya modellen och hur vi skulle jobba vidare. Det vi kom fram till var att vi ska fokusera på att få färdigt själva kärnan i vår idé med receptfunktionen samt att fixa till vissa delar i datasetet (ost, bönor m.m.) som gav felaktiga resultat.
+
+************************************************************************************************************************************************
+## Daily 2022-05-18
+
+## Närvarande: Johanna, Anna och Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Lagt in mer råvaror och satt etikett på dessa :)
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ometikettera råvaror i förpackning, träna upp en modell
+
+*   __Behöver jag hjälp med något?__\
+   Nej :)
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Lagt in mer råvaror och satt etikett på dessa :)
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ometikettera råvaror i förpackning, träna upp en modell
+
+*   __Behöver jag hjälp med något?__\
+   Nej :)
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Lagt in mer råvaror och satt etikett på dessa :)
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ometikettera råvaror i förpackning, träna upp en modell
+*   __Behöver jag hjälp med något?__\
+   Nej :)
+### Övrigt__\
+*
+
+************************************************************************************************************************************************
+## Daily 2022-05-17
+
+## Närvarande: Elvir, Johanna och Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+    Lagt till mer data i Roboflow.
+    
+*   __Vad ska jag göra till nästa avstämning?__\
+    Lägga in mer data i Roboflow, försöka bocka av alla råvaror från listan.
+*   __Behöver jag hjälp med något?__\
+    Nej.
+    
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+    Lagt till mer data i Roboflow.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Lägga in mer data i Roboflow, försöka bocka av alla råvaror från listan
+   
+*   __Behöver jag hjälp med något?__\
+    Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+    Vabbat och va sjuk.
+*   __Vad ska jag göra till nästa avstämning?__\
+    Lägga in mer data i Roboflow, försöka bocka av alla råvaror från listan
+*   __Behöver jag hjälp med något?__\
+    Nej.
+    
+### Övrigt__\
+* MaryAnn har valt att hoppa av.
+
+************************************************************************************************************************************************
+
+## Daily 2022-05-16
+
+## Närvarande: Johanna, Anna, Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Försökt ta reda på hur man använder state_dict, testat olika sätt att implementera i vår kod, men fick inte förväntat resultat.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   Lägga in mer data
+*   __Behöver jag hjälp med något?__\
+   Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Försökt göra yolov5 snabbare
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   Lägga in mer data
+*   __Behöver jag hjälp med något?__\
+   Nej.
+
 
 ### MaryAnn
 *   __Vad har jag gjort sedan avstämningen igår?__\
@@ -58,15 +189,169 @@
 
 ### Johanna
 *   __Vad har jag gjort sedan avstämningen igår?__\
-
+   Försökte göra applikationen snabbare och få in bilderna i rätt tensorformat.
 *   __Vad ska jag göra till nästa avstämning?__\
-
+   vabbar och är sjuk idag men var med på dailyn :)
 *   __Behöver jag hjälp med något?__\
+   Nej.
+### Övrigt__\
 
+************************************************************************************************************************************************
+## Daily 2022-05-12
+
+## Närvarande: Anna, Elvir och Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Vilat.
+*   __Vad ska jag göra till nästa avstämning?__\
+Vila.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### Övrigt__\
+* Nej. Vi är grymma och jobbar på som vanligt!!!
+************************************************************************************************************************************************
+## Daily 2022-05-13
+
+## Närvarande: Anna, Elvir, Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixade en funktion som plockar ut koordinater och etikett (label) ur klassificerade bilder. Tyvärr går den långsamt.
+*   __Vad ska jag göra till nästa avstämning?__\
+Få ovanstående funktion att fungera snabbare.
+*   __Behöver jag hjälp med något?__\
+Av Joakim.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixade en funktion som plockar ut koordinater och etikett (label) ur klassificerade bilder. Tyvärr går den långsamt.
+*   __Vad ska jag göra till nästa avstämning?__\
+Få ovanstående funktion att fungera snabbare.
+*   __Behöver jag hjälp med något?__\
+Av Joakim.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Vilat.
+*   __Vad ska jag göra till nästa avstämning?__\
+Vilat.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixade en funktion som plockar ut koordinater och etikett (label) ur klassificerade bilder. Tyvärr går den långsamt.
+*   __Vad ska jag göra till nästa avstämning?__\
+Få ovanstående funktion att fungera snabbare.
+*   __Behöver jag hjälp med något?__\
+Av Joakim.
+
+### Övrigt__\
+* Nej.
+************************************************************************************************************************************************
+## Daily 2022-05-12
+
+## Närvarande: Anna, Elvir och Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Vilat.
+*   __Vad ska jag göra till nästa avstämning?__\
+Vila.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Jobbat med att försöka lösa problemet med att både yolov5 och opencv vill använda kamerorna samtidigt. Joakim hjälpte oss till slut med ett lösningsförslag.
+*   __Vad ska jag göra till nästa avstämning?__\
+Försöka implementera Joakims kod i vår.
+*   __Behöver jag hjälp med något?__\
+Vi jobbar tillsammans.
+
+### Övrigt__\
+* Nej. Vi är grymma och jobbar på som vanligt!!!
+************************************************************************************************************************************************
+## Daily 2022-05-11
+
+## Närvarande: Johanna, Elvir och Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Sjuk.
+*   __Vad ska jag göra till nästa avstämning?__\
+Lösa problemet med att få kamrean att fungera med hjälp av openCV.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Lagt till mer data i datasetet och påbörjat mobilapplikationen med kivy, stötte på problem med yolov5 och kivy, vill använda kameran samidigt på något sätt.
+*   __Vad ska jag göra till nästa avstämning?__\
+Lösa problemet med att få kamrean att fungera med hjälp av openCV.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### MaryAnn
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Vila.
+*   __Vad ska jag göra till nästa avstämning?__\
+Vila.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Kollat på hur man kan få runda knappar i Kivy, påbörjat mobilapplikationen med kivy, stötte på problem med yolov5 och kivy, vill använda kameran samidigt på något sätt.
+*   __Vad ska jag göra till nästa avstämning?__\
+Lösa problemet med att få kamrean att fungera med hjälp av openCV.
+*   __Behöver jag hjälp med något?__\
+Nej.
 ### Övrigt__\
 *
 ************************************************************************************************************************************************
-
 ## Daily 2022-05-10
 
 ## Närvarande: Elvir, Johanna
