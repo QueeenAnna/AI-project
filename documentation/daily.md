@@ -56,6 +56,137 @@
 
 ### Övrigt__\
 *
+************************************************************************************************************************************************
+## Daily 2022-05-24
+
+## Närvarande: Elvir, Anna, Johanna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Hållt på med index.html, gjort en grund för den och lagt till navbar i base.html samt fixat kod hur vi kan koppla webbkameran till Flask.
+*   __Vad ska jag göra till nästa avstämning?__\
+Kolla på tutorial om hur vi kan öppna vår modell i openCV och kolla om det går att implementera den i vår kod.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixade recipes.html. Hjälpte Anna med att bootstrap (index.html).
+*   __Vad ska jag göra till nästa avstämning?__\
+Kolla på tutorial om hur vi kan öppna vår modell i openCV samt skriva kod hur recipes.html tar emot information från categories.html.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+Fixat categories.html samt skrivit kod för att leta reda på bilden på maträtterna på food.com.
+*   __Vad ska jag göra till nästa avstämning?__\
+Kolla hur vi kan göra en app som är en webbläsare. Sen jobba med Anna och Elvir med openCV.
+*   __Behöver jag hjälp med något?__\
+Nej.
+
+### Övrigt__\
+* Vi har beslutat att inte använda oss av en databas. Vi kommer heller inte att hantera inloggningar eller användare/anvädning, utan sökningarna får försvinna efter att de har gjorts.
+************************************************************************************************************************************************
+
+### <Mall för daily standup>
+
+## Möte 2022-05-23
+### Sprint review
+* Blev alla issues klara?\
+   - Om inte, varför?\
+   Nej, vissa saker tog längre tid än vi trodde. Vi la mycket tid på Kivy som vi beslutade oss om att inte använda. Mycket research och det tog mycket av våran tid.
+* Icke klara issues återförs till backlog, efter att de har uppdaterats.\
+  - Har vissa delar klarats av?\
+  Ja
+  - Skall vi ha en ny tidsuppskattning?\
+  Nej
+  - Vad behövs för att vi skall klara detta issue nästa gång?\
+  Vi har nya issues
+* Har det kommit upp nya saker som skall läggas till på er backlog?\
+  Ja
+* Bedöm vad ni kan göra bättre i nästa sprint\
+  Bättre på att tidsuppskatta innan och efter. 
+
+
+### Sprint planning
+* Beskriv det övergripande målet med sprinten:\ 
+  Bli klara med projektet och lägga till flask.
+  -Namn:\
+  Flask
+  -Beskrivning:\
+  Lägga till flask och bli klar med vårat projekt, eventuellt lägga till en databas.
+  -Startdatum:\
+  2022-05-23
+  -Slutdatum:\
+  2022-05-31
+  
+* Vad ska ingå i nästa veckas sprint?\
+Flask, kanske MongoDB, CSS, template, städa upp i strukturen
+## Daily 2022-05-23
+
+## Närvarande: Johanna, Anna och Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixade ost, paprika, bönor och linser i datasetet på roboflow. 
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ska få ihop en flaskapplikation.
+
+*   __Behöver jag hjälp med något?__\
+   Nej inte just nu.
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Fixade bilderna på mjölk och grädde. Tränade upp en modell.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ska få ihop en flaskapplikation.
+   
+*   __Behöver jag hjälp med något?__\
+   Nej inte just nu.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   La till betygssättning(kanske behöver uppdateras) och la till händer i roboflow. Tränade upp en modell. La till objektorientering i vårt arbete.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Ska få ihop en flaskapplikation.
+*   __Behöver jag hjälp med något?__\
+   Nej inte just nu.
+### Övrigt__\
+* Vi pratade med Joakim och kom fram till att vi ska använda oss av flask för att snygga till vår applikation.
+************************************************************************************************************************************************
+## Daily 2022-05-20
+
+## Närvarande: Johanna, Elvir, Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Etiketterat om ost, bönor och aubergine. Tränat upp en ny model på 150 epoker.
+*   __Vad ska jag göra till nästa avstämning?__\
+    Testa den nya modellen. Fixa och förbättra dem felen vi hittade när vi tränande den nya modellen.
+*   __Behöver jag hjälp med något?__\
+   Nej.
+   
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Etiketterat om mjölk och kyckling. Tränat upp en ny model på 150 epoker.
+   
+*   __Vad ska jag göra till nästa avstämning?__\
+   Testa den nya modellen. Fixa och förbättra dem felen vi hittade när vi tränande den nya modellen.
+*   __Behöver jag hjälp med något?__\
+   Nej.
+   
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Vabbat. Fixat så att applikationen hittar senaste exp mappen, att användaren kan filterera kategorier och skicka användaren vidare till urlen som användaren har valt. Har även fixat så att alla råvaror som har upptäckts färre än 10 ggr (kan ändras) hamnar inte i listan.
+   
+*   __Vad ska jag göra till nästa avstämning?__\
+   Testa den nya modellen. Fixa och förbättra dem felen vi hittade när vi tränande den nya modellen.
+*   __Behöver jag hjälp med något?__\
+   Nej.
+   
+### Övrigt__\
+*
 
 ************************************************************************************************************************************************
 ## Daily 2022-05-19
