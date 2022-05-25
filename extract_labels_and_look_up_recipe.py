@@ -53,7 +53,6 @@ def convert_to_url(name, _id):
     webbrowser.open(url)
 
 
-
 def main():
     # os.system("python detect.py --source 1 --weights ./trained_model/best.pt --save-txt")
     labels = ['salt', 'carrot', 'onion', 'tomato']
