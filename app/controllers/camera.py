@@ -1,5 +1,7 @@
 import os.path
-
+import torch
+import numpy as np
+from time import time
 import cv2
 
 
@@ -16,10 +18,7 @@ class Video(object):
 
         return jpg.tobytes()
 
-import torch
-import numpy as np
-import cv2
-from time import time
+
 
 
 class FoodDetection:
@@ -78,6 +77,7 @@ class FoodDetection:
         while True:
 
             ret, frame = cap.read()
+            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             assert ret
 
             frame = cv2.resize(frame, (600, 500))
@@ -89,6 +89,7 @@ class FoodDetection:
             fps = 1 / np.round(endtime - start_time, 2)
 
             cv2.putText(frame, f'FPS: {int(fps)}', (20, 70), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
+            frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
             cv2.imshow('foodapp', frame)
             if cv2.waitKey(5) & 0xFF == 27:
                 break
