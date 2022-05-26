@@ -1,12 +1,21 @@
-import webbrowser
 
+import webbrowser
 import requests
 from flask import Blueprint, render_template, request, redirect, url_for
 from bs4 import BeautifulSoup
-
 from app.controllers import recipe_controller as rc
+from app.controllers.camera import Video
+from app.controllers.camera import Video, FoodDetection
+import cv2
 
 bp_open = Blueprint('bp_open', __name__)
+
+# video_stream = FoodDetection(capture_index=1, model_name='trained_model\model_150_epoches.pt')
+# detector = FoodDetection(capture_index=1, model_name='trained_model\model_150_epoches.pt')
+# video_stream()
+
+detector = FoodDetection(capture_index=1, model_name='model_150_epoches.pt')
+detector()
 
 
 @bp_open.get('/')
@@ -14,10 +23,24 @@ def index():
     return render_template('index.html')
 
 
+def gen(camera):
+    while True:
+        frame = camera.get_frame()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
+
+
+@bp_open.get('/video')
+def video():
+    return Response(gen(detector()),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
+
+
 @bp_open.get('/categories')
 def categories_get():
     # Manage problem with naming that is inconsistent with database!!!
     categories = ['30 Minutes Or Less', 'Desserts', 'Inexpensive', 'Fish', 'Meat', 'Vegetarian']
+
 
     return render_template('categories.html', categories=categories)
 
@@ -39,7 +62,6 @@ def categories_post():
 
     sorted_recipes = rc.sort_by_category(recipes, chosen)
     return redirect(url_for('bp_open.recipes_get', sorted_recipes=sorted_recipes))
-
 
 @bp_open.get('/recipes')
 def recipes_get():

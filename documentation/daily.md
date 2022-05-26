@@ -57,6 +57,38 @@
 ### Övrigt__\
 *
 ************************************************************************************************************************************************
+
+## Daily 2022-05-25
+
+## Närvarande: Johanna, Elvir och Anna
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Kollade på tutorialen och skrev av koden för hand och implementerade den i vårt projekt. 
+*   __Vad ska jag göra till nästa avstämning?__\
+   Fortsätta analysera och lösa problemen som uppstod med koden från igår.
+*   __Behöver jag hjälp med något?__\
+Nej, inte just nu.
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Kollade på tutorialen och skrev av koden för hand och implementerade den i vårt projekt. 
+   
+*   __Vad ska jag göra till nästa avstämning?__\
+   Fortsätta analysera och lösa problemen som uppstod med koden från igår.
+   
+*   __Behöver jag hjälp med något?__\
+ Nej, inte just nu.
+
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Kollade upp hur vi kan göra en Kivy app som visar en webbläsarflik i full screen, det visade sig vara svårare.
+*   __Vad ska jag göra till nästa avstämning?__\
+   Kolla och diskutera med Joakim om en bra lösning till ovanstående problem.
+*   __Behöver jag hjälp med något?__\
+   Ja, av Joakim.
+### Övrigt__\
+*
+************************************************************************************************************************************************
 ## Daily 2022-05-24
 
 ## Närvarande: Elvir, Anna, Johanna

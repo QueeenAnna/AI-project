@@ -143,7 +143,6 @@ class User:
         url = f'{base}{name}-{_id}'
         webbrowser.open(url)
 
-
 def main():
     # os.system("python detect.py --source 1 --weights ./trained_model/best.pt --save-txt")
     # python detect.py --source 1 --weights ./train_models/model_85_epochs.pt --save-txt
