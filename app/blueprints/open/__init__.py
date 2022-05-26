@@ -1,10 +1,9 @@
 
 import webbrowser
 import requests
-from flask import Blueprint, render_template, request, redirect, url_for
+from flask import Blueprint, render_template, request, redirect, url_for, Response
 from bs4 import BeautifulSoup
 from app.controllers import recipe_controller as rc
-from app.controllers.camera import Video
 from app.controllers.camera import Video, FoodDetection
 import cv2
 
@@ -15,7 +14,7 @@ bp_open = Blueprint('bp_open', __name__)
 # video_stream()
 
 detector = FoodDetection(capture_index=1, model_name='./controllers/trained_model/model_150_epoches.pt')
-detector()
+#detector()
 
 
 @bp_open.get('/')
@@ -25,14 +24,16 @@ def index():
 
 def gen(camera):
     while True:
-        frame = camera.get_frame()
+        frame = next(camera.get_frame())
+        _, buffer =  cv2.imencode('.jpg', frame)
+        frame = buffer.tobytes()
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
 
 
 @bp_open.get('/video')
 def video():
-    return Response(gen(detector()),
+    return Response(gen(detector),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
@@ -40,7 +41,6 @@ def video():
 def categories_get():
     # Manage problem with naming that is inconsistent with database!!!
     categories = ['30 Minutes Or Less', 'Desserts', 'Inexpensive', 'Fish', 'Meat', 'Vegetarian']
-
 
     return render_template('categories.html', categories=categories)
 

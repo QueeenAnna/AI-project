@@ -14,11 +14,10 @@ class Video(object):
 
     def get_frame(self):
         ret, frame = self.video.read()
+        # Är det här vi ska få in frames
         ret, jpg = cv2.imencode('.jpg', frame)
 
         return jpg.tobytes()
-
-
 
 
 class FoodDetection:
@@ -70,30 +69,33 @@ class FoodDetection:
 
         return frame
 
-    def __call__(self):
+    def get_frame(self):
         cap = self.get_video_capture()
         assert cap.isOpened()
 
         while True:
 
             ret, frame = cap.read()
-            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            assert ret
+            if ret:
+                frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+                assert ret
 
-            frame = cv2.resize(frame, (600, 500))
-            start_time = time()
-            results = self.score_frame(frame)
-            frame = self.plot_boxes(results, frame)
+                frame = cv2.resize(frame, (600, 500))
+                start_time = time()
+                results = self.score_frame(frame)
+                frame = self.plot_boxes(results, frame)
 
-            endtime = time()
-            fps = 1 / np.round(endtime - start_time, 2)
+                endtime = time()
+                fps = 1 / np.round(endtime - start_time, 2)
 
-            cv2.putText(frame, f'FPS: {int(fps)}', (20, 70), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
-            frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
-            cv2.imshow('foodapp', frame)
-            if cv2.waitKey(5) & 0xFF == 27:
-                break
-        cap.release()
+                cv2.putText(frame, f'FPS: {int(fps)}', (20, 70), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2)
+                yield cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+            else:
+                yield cv2.imread('Testbild.png')
+            # # cv2.imshow('foodapp', frame)
+            # if cv2.waitKey(5) & 0xFF == 27:
+            #     break
+        # cap.release()
 
 
 # detector = FoodDetection(capture_index=1, model_name='model_150_epoches.pt')
