@@ -9,7 +9,7 @@ bp_open = Blueprint('bp_open', __name__)
 # detector = FoodDetection(capture_index=1, model_name='trained_model\model_150_epoches.pt')
 # video_stream()
 
-detector = FoodDetection(capture_index=1, model_name='model_150_epoches.pt')
+detector = FoodDetection(capture_index=1, model_name='./controllers/trained_model/model_150_epoches.pt')
 detector()
 
 
