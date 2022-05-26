@@ -1,10 +1,16 @@
 from flask import Blueprint, render_template, request, Response
 from app.controllers.camera import Video
+from app.controllers.camera import Video, FoodDetection
 import cv2
 
 bp_open = Blueprint('bp_open', __name__)
 
-video_stream = Video()
+# video_stream = FoodDetection(capture_index=1, model_name='trained_model\model_150_epoches.pt')
+# detector = FoodDetection(capture_index=1, model_name='trained_model\model_150_epoches.pt')
+# video_stream()
+
+detector = FoodDetection(capture_index=1, model_name='model_150_epoches.pt')
+detector()
 
 
 @bp_open.get('/')
@@ -21,7 +27,7 @@ def gen(camera):
 
 @bp_open.get('/video')
 def video():
-    return Response(gen(video_stream),
+    return Response(gen(detector()),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
