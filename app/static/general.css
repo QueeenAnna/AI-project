@@ -1,0 +1,21 @@
+/*Adding shadow to Bootstrap standard buttons*/
+.btn-primary {
+    box-shadow: 1px 2px 5px #5f788a;
+}
+
+/*Styling for the semi-transparent box that information goes in*/
+.content-section {
+  background: rgba(255,255,255,0.7);
+  box-shadow: 1px 2px 5px #5f788a;
+  height: 100%;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+/*Adding shadow to Bootstrap standard buttons*/
+.btn-primary {
+    box-shadow: 1px 2px 5px #5f788a;
+}
+

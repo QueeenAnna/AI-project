@@ -1,1 +1,84 @@
 {% extends "base.html" %}
+
+
+{% block content8 %}
+    <div class="content-section overflow-auto" style="max-height: inherit">
+
+        <h3 style="; text-align: center">Choose one or more categories to filter the result</h3>
+
+        <form id="categories" action="{{url_for("bp_open.categories_post")}}" method="POST" style="display: table">
+            {% for category in categories %}
+                <div class="checkbox-container">
+                    <input type="checkbox" id="{{ loop.index }}" name="{{ category }}" value="{{ category }}">
+                    <label for="{{ loop.index }}">{{ category }}</label>
+                </div>
+            {% endfor %}
+
+            <div>
+                <input name="hiddenList" type="hidden" id="isHidden" />
+                <input type="submit" id="submitbutton" class="btn btn-primary" onclick="sendIt()" value="Show Recipes" disabled="disabled">
+            </div>
+        </form>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+console.log('Any?');
+let chosenCategories = [];
+console.log('1');
+document.getElementById("categories").onsubmit = () => {
+    document.getElementById("isHidden").checked = JSON.stringify(chosenCategories)
+}
+function isChecked() {
+    console.log('2');
+    let category = document.forms[0];
+    let category_array = [];
+    for (let i = 0; i < category.length; i++) {
+        if (category[i].checked) {
+            category_array.push(category[i].value);
+        }
+    }
+    if(category_array.length === 0) {
+
+    }
+}
+// get a list of the checkboxes and spread it into an array
+// so later you can use Array methods on it
+const checkboxes = [...document.querySelectorAll('input[type=checkbox]')]
+
+// function that tells you if any checkboxes in
+// the above list are checked
+function anyChecked() {
+  // this is where we're using an array method
+  // Array.prototype.some
+  return checkboxes.some(x=>x.checked)
+}
+
+// to every single checkbox, add a click listener
+// again, using an Array method
+// Array.prototype.forEach
+checkboxes.forEach(checkbox => {
+  checkbox.addEventListener('click', () => {
+    // when any checkbox is clicked,
+    // check if there's any checked checkboxes
+    anyChecked()
+      // if so, enable the button
+      ? submitbutton.removeAttribute('disabled')
+      // otherwise, disable it
+      : submitbutton.setAttribute('disabled','')
+  })
+})
+
+
+// do the same thing initially as well
+// to account for initially checked checkboxes
+anyChecked()
+      ? submitbutton.removeAttribute('disabled')
+      : submitbutton.setAttribute('disabled','')
+
+function sendIt() {
+    let chosenForm = document.getElementById("categories");
+    chosenForm.submit();
+}
+</script>
+{% endblock %}
