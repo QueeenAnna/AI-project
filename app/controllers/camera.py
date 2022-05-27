@@ -49,10 +49,14 @@ class FoodDetection:
         counter = 0
 
         for i in results.xyxyn[0]:
+
             with open(f'test{counter}.txt', 'w') as f:
-                counter += 1
-                f.write(f'{labels} {conf}')
-        # print(results.pandas().xyxy[0])
+                for i in range(len(labels)):
+                    counter += 1
+                    label_test = int(labels.min().cpu().detach().numpy().tolist())
+                    # conf_test = labels.min().cpu().detach().numpy().tolist()
+                    f.write(f'{label_test}')
+                    f.write('\n')
 
         return labels, cord
 
