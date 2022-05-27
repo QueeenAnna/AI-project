@@ -4,16 +4,19 @@
 
 {% block content12 %}
 <br></br>
-<h1 style="text-align: center;">Welcome to our Food App! </h1>
+<h1 style="text-align: center;">Detecting food...</h1>
 <div style="justify-content: center; display: flex; margin-top: 50px;"><img src="{{ url_for('bp_open.video') }} "/>
 </div>
 
     <br></br>
 
 
-    <div class="container">
+<div class="container">
         <div class="col-md-12 text-center">
-            <button type="button" class="btn btn-outline-success btn-lg">START</button>
-                </div>
+            <button type="button" class="btn btn-outline-danger" onclick="window.location.href='{{ url_for( "bp_open.categories_get") }}';">STOP</button>
+        </div>
     </div>
+
+    <br></br>
+
 {% endblock %}

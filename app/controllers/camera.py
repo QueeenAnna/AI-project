@@ -80,7 +80,7 @@ class FoodDetection:
                 frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
                 assert ret
 
-                frame = cv2.resize(frame, (600, 500))
+                frame = cv2.resize(frame, (670, 470))
                 start_time = time()
                 results = self.score_frame(frame)
                 frame = self.plot_boxes(results, frame)
