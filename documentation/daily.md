@@ -57,7 +57,42 @@
 ### Övrigt__\
 *
 ************************************************************************************************************************************************
+## Daily 2022-05-27
 
+## Närvarande: Johanna, Anna och Elvir
+
+### Anna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Analyserade koden i camera.py för att lösa problemet med att modellen gissade fel. Fixade ett problem med camera.py, fick med Joakims hjälp upp modellen på en webbsida. 
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   Fixa start och stopp knapp på förstasidan.
+
+*   __Behöver jag hjälp med något?__\
+   Nej, inte just nu :)
+
+### Elvir
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Analyserade koden i camera.py för att lösa problemet med att modellen gissade fel. Fixade ett problem med camera.py, fick med Joakims hjälp upp modellen på en      webbsida. 
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   Få ut labels från camera.py
+
+*   __Behöver jag hjälp med något?__\
+   Nej, inte just nu :)
+### Johanna
+*   __Vad har jag gjort sedan avstämningen igår?__\
+   Försökte få fullscreen med hjälp av Kivy, lösning saknades för python 3.9+ tyvärr. Fixade ett problem med camera.py, fick med Joakims hjälp upp modellen på en      webbsida.
+
+*   __Vad ska jag göra till nästa avstämning?__\
+   Få ut labels från camera.py.
+
+*   __Behöver jag hjälp med något?__\
+   Nej, inte just nu :)
+### Övrigt__\
+   Vi har jobbat på helgdagar denna vecka och även fått hjälp av Joakim på kristi himmelsfärd :)
+*
+************************************************************************************************************************************************
 ## Daily 2022-05-25
 
 ## Närvarande: Johanna, Elvir och Anna
