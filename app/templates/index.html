@@ -5,7 +5,7 @@
 {% block content12 %}
 <br></br>
 <h1 style="text-align: center;">Welcome to our Food App! </h1>
-<div style="justify-content: center; display: flex; margin-top: 50px;"><img src="{{ url_for('bp_open.video') }} "/>
+<div id="screen" style="justify-content: center; display: flex; margin-top: 50px;"><img src="{{ url_for('bp_open.video') }} "/>
 </div>
 
     <br></br>
@@ -13,7 +13,7 @@
 
     <div class="container">
         <div class="col-md-12 text-center">
-            <button type="button" class="btn btn-outline-success btn-lg">START</button>
+            <button type="button" class="btn btn-outline-success btn-lg" onclick="window.location.href='{{ url_for( 'bp_open.categories_get') }}';">START</button>
                 </div>
     </div>
 {% endblock %}

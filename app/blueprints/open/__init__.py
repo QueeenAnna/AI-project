@@ -13,7 +13,7 @@ bp_open = Blueprint('bp_open', __name__)
 # detector = FoodDetection(capture_index=1, model_name='trained_model\model_150_epoches.pt')
 # video_stream()
 
-detector = FoodDetection(capture_index=1, model_name='./controllers/trained_model/model_150_epoches.pt')
+detector = FoodDetection(capture_index=0, model_name='./controllers/trained_model/model_150_epoches.pt')
 #detector()
 
 
@@ -25,7 +25,7 @@ def index():
 def gen(camera):
     while True:
         frame = next(camera.get_frame())
-        _, buffer =  cv2.imencode('.jpg', frame)
+        _, buffer = cv2.imencode('.jpg', frame)
         frame = buffer.tobytes()
         yield (b'--frame\r\n'
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')

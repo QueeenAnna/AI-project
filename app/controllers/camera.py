@@ -14,7 +14,6 @@ class Video(object):
 
     def get_frame(self):
         ret, frame = self.video.read()
-        # Är det här vi ska få in frames
         ret, jpg = cv2.imencode('.jpg', frame)
 
         return jpg.tobytes()
@@ -45,6 +44,14 @@ class FoodDetection:
         frame = [frame]
         results = self.model(frame)
         labels, cord = results.xyxyn[0][:, -1], results.xyxyn[0][:, :-1]
+        conf = results.xyxyn[0][:, -2]
+
+        counter = 0
+
+        for i in results.xyxyn[0]:
+            with open(f'test{counter}.txt', 'w') as f:
+                counter += 1
+                f.write(f'{labels} {conf}')
         # print(results.pandas().xyxy[0])
 
         return labels, cord
