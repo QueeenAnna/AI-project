@@ -13,11 +13,35 @@ bp_open = Blueprint('bp_open', __name__)
 # detector = FoodDetection(capture_index=1, model_name='trained_model\model_150_epoches.pt')
 # video_stream()
 
-detector = FoodDetection(capture_index=0, model_name='./controllers/trained_model/model_150_epoches.pt')
+detector = FoodDetection(capture_index=0, model_name='./controllers/trained_model/model5.pt')
 #detector()
 
 
 @bp_open.get('/')
+def index_home():
+    return render_template('index_home.html')
+
+
+def generate_frames():
+    cam = cv2.VideoCapture(0)
+
+    while True:
+        res, frame = cam.read()
+        if not res:
+            break
+        res, buffer = cv2.imencode('.jpg', frame)
+        frame = buffer.tobytes()
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
+
+
+@bp_open.get('/video')
+def webcam():
+    return Response(generate_frames(),
+                    mimetype='multipart/x-mixed-replace; boundary=frame')
+
+
+@bp_open.get('/detect')
 def index():
     return render_template('index.html')
 
@@ -31,7 +55,7 @@ def gen(camera):
                b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
 
 
-@bp_open.get('/video')
+@bp_open.get('/detect/video')
 def video():
     return Response(gen(detector),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
