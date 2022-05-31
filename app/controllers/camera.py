@@ -50,7 +50,7 @@ class FoodDetection:
 
         for i in results.xyxyn[0]:
 
-            with open(f'test{counter}.txt', 'w') as f:
+            with open(f'exp/labels/test{counter}.txt', 'w') as f:
                 for i in range(len(labels)):
                     counter += 1
                     label_test = int(labels.min().cpu().detach().numpy().tolist())

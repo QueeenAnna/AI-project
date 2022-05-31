@@ -2,9 +2,12 @@ import datetime
 import glob
 import os
 import csv
+import pathlib
 import webbrowser
 from collections import Counter
 import re
+
+from flask import url_for
 
 
 def grade_or_update_recipe(name):
@@ -18,29 +21,53 @@ def grade_or_update_recipe(name):
 
 
 def get_labels():
-    # Count number of exp folders in run
-    n_exp_folders = str(len(glob.glob('yolov5.0/runs/detect/exp*')))
-    # If 1 folder is just named exp
-    if n_exp_folders == '1':
-        n_exp_folders == ''
-    # Get latest exp folder
-    directory = f'yolov5.0/runs/detect/exp' + n_exp_folders + '/labels'
+    path = pathlib.Path(__file__).parent.resolve()
+    path = os.path.join(path, 'exp/labels')
+    directory = path
     rows = []
     for filename in os.listdir(directory):
         if filename.endswith('.txt'):
             with open(directory + '/' + filename, 'r') as f:
                 rows += f.readlines()
 
-    count_all = Counter([int(row.split()[0]) for row in rows])
-    count_above_10 = Counter({k: c for k, c in count_all.items() if c >= 10})
-    return count_above_10
+    empty_list = []
+    for row in rows:
+        test = row.replace('\n', '')
+        empty_list.append(test)
+    mylist = list(set(empty_list))
+    labels_list = [int(x) for x in mylist]
+    return labels_list
 
+    # Count number of exp folders in run
+    # n_exp_folders = str(len(glob.glob('yolov5.0/runs/detect/exp*')))
+    # # If 1 folder is just named exp
+    # if n_exp_folders == '1':
+    #     n_exp_folders == ''
+    # # Get latest exp folder
+    # directory = f'yolov5.0/runs/detect/exp' + n_exp_folders + '/labels'
+    # rows = []
+    # for filename in os.listdir(directory):
+    #     if filename.endswith('.txt'):
+    #         with open(directory + '/' + filename, 'r') as f:
+    #             rows += f.readlines()
+    #
+    # count_all = Counter([int(row.split()[0]) for row in rows])
+    # count_above_10 = Counter({k: c for k, c in count_all.items() if c >= 10})
+    # return count_above_10
 
 def get_recipes(labels, c):
-    ingredients = [label for label in labels if labels.index(label) in c.keys()]
-    recipes = []
+    ingredients = [label for label in labels if labels.index(label) in c]
+    #
+    # ingredients = []
+    # for label in labels:
+    #     if c in labels.index(label):
+    #         ingredients.append(label)
 
-    with open('datasets/RAW_recipes.csv', 'r', encoding='utf-8') as infile:
+
+    recipes = []
+    path = pathlib.Path(__file__).parent.resolve()
+    path = os.path.join(path, 'RAW_recipes.csv')
+    with open(path, 'r', encoding='utf-8') as infile:
         read = csv.reader(infile)
         for row in read:
             recipe = {'name': '',
@@ -87,6 +114,11 @@ def sort_by_category(recipes, categories):
         if all(item in recipe['category'] for item in categories):
             sorted_recipes.append(recipe)
     return sorted_recipes
+
+def sort_by_labels(sorted_recipes, mylist):
+
+    final_recipes = []
+
 
 
 def show_top_recipes(sorted_recipes):

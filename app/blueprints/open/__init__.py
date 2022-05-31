@@ -1,11 +1,23 @@
 
 import webbrowser
 import requests
-from flask import Blueprint, render_template, request, redirect, url_for, Response
+from flask import Blueprint, render_template, request, redirect, url_for, Response, session, json
 from bs4 import BeautifulSoup
 from app.controllers import recipe_controller as rc
 from app.controllers.camera import Video, FoodDetection
 import cv2
+from extract_labels_and_look_up_recipe import User
+
+data = None
+description = None
+
+user = User()
+labels = ['asparagus', 'banana', 'beans', 'bell pepper', 'broccoli', 'carrot', 'cheese', 'chicken', 'chili',  # 0-8
+              'cucumber', 'egg', 'eggplant', 'garlic', 'ginger', 'lemon', 'lentils', 'milk', 'minced_meat',  # 9-17
+              'olive_label', 'olives', 'onion', 'potato', 'red_onion', 'rhubarb', 'rice', 'salmon', 'spaghetti',
+              # 18-26
+              'spinach', 'sun-dried_tomatoes', 'sun-dried_tomatoes_label', 'tomato_sauce', 'tomato', 'whipping_cream']
+
 
 bp_open = Blueprint('bp_open', __name__)
 
@@ -13,7 +25,7 @@ bp_open = Blueprint('bp_open', __name__)
 # detector = FoodDetection(capture_index=1, model_name='trained_model\model_150_epoches.pt')
 # video_stream()
 
-detector = FoodDetection(capture_index=0, model_name='./controllers/trained_model/model5.pt')
+detector = FoodDetection(capture_index=1, model_name='./controllers/trained_model/model5.pt')
 #detector()
 
 
@@ -23,7 +35,7 @@ def index_home():
 
 
 def generate_frames():
-    cam = cv2.VideoCapture(0)
+    cam = cv2.VideoCapture(1)
 
     while True:
         res, frame = cam.read()
@@ -72,24 +84,44 @@ def categories_get():
 @bp_open.post('/categories')
 def categories_post():
     # Labels and c from index_post()
-    labels = []
-    c = 'above 10 frames'
-    recipes, ingredients = rc.get_recipes(labels, c)  # Skip ingredients?
+    # c = 'above 10 frames'
+    counter = rc.get_labels()
+    recipes, ingredients = rc.get_recipes(labels, counter)  # Skip ingredients?
 
     # Manage problem with naming that is inconsistent with database!!!
     categories = ['30-minutes-or-less', 'desserts', 'inexpensive', 'fish', 'meat', 'vegetarian']
 
     chosen = []
     for category in request.form:
+        category = category.lower()
+        category = category.replace(' ', '-')
         if category in categories:
             chosen.append(category)
 
     sorted_recipes = rc.sort_by_category(recipes, chosen)
-    return redirect(url_for('bp_open.recipes_get', sorted_recipes=sorted_recipes))
+    print()
+    # urls = json.dumps(user.show_url(sorted_recipes))
+    global data
+
+    url = user.show_url(sorted_recipes)
+    for i in range(10):
+        url.append(sorted_recipes[i]['name'])
+        url.append(sorted_recipes[i]['description'])
+        url.append(sorted_recipes[i]['minutes'])
+
+    data = url
+
+    return redirect(url_for('bp_open.recipes_get'))
+
 
 @bp_open.get('/recipes')
 def recipes_get():
-    return render_template('recipes.html')
+    #urls = request.args['urls']
+    global data
+    if not data:
+        data = []
+
+    return render_template('recipes.html', url=data)
 
 
 def main():
