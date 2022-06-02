@@ -47,8 +47,6 @@ def get_contours(img, img_contour):
     contours, hierarchy = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
     for contour in contours:
         area = cv2.contourArea(contour)
-        # if area > 500:
-        #     print()
         cv2.drawContours(img_contour, contour, -1, (255, 0, 0), 3)
         arc_length = cv2.arcLength(contour, True)
         approx = cv2.approxPolyDP(contour, arc_length * 0.02, True)
@@ -69,62 +67,57 @@ def get_contours(img, img_contour):
 
         cv2.putText(img_contour, object_type, (x + (w // 2) - len(object_type) * 4, y -10), cv2.FONT_HERSHEY_COMPLEX,
                     0.5, (0, 0, 0), 1)
-        print()
 
 
 def main():
-    # img = cv2.imread('imgs/red_onion_original/red_onion_108.jpg')
-    # print(img.shape)
-    #
-    # img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-    #
-    # cv2.namedWindow('Trackbars')
-    # cv2.resizeWindow('Trackbars', 640, 240)
-    # cv2.createTrackbar('Hue Min', 'Trackbars', 99, 179, lambda x: 0)
-    # cv2.createTrackbar('Hue Max', 'Trackbars', 123, 179, lambda x: 0)
-    # cv2.createTrackbar('Sat Min', 'Trackbars', 80, 255, lambda x: 0)
-    # cv2.createTrackbar('Sat Max', 'Trackbars', 255, 255, lambda x: 0)
-    # cv2.createTrackbar('Val Min', 'Trackbars', 148, 255, lambda x: 0)
-    # cv2.createTrackbar('Val Max', 'Trackbars', 255, 255, lambda x: 0)
-    #
-    # while True:
-    #     hue_min = cv2.getTrackbarPos('Hue Min', 'Trackbars')
-    #     hue_max = cv2.getTrackbarPos('Hue Max', 'Trackbars')
-    #     sat_min = cv2.getTrackbarPos('Sat Min', 'Trackbars')
-    #     sat_max = cv2.getTrackbarPos('Sat Max', 'Trackbars')
-    #     val_min = cv2.getTrackbarPos('Val Min', 'Trackbars')
-    #     val_max = cv2.getTrackbarPos('Val Max', 'Trackbars')
-    #
-    #     lower_limit = np.array([hue_min, sat_min, val_min])
-    #     upper_limit = np.array([hue_max, sat_max, val_max])
-    #     mask = cv2.inRange(img_hsv, lower_limit, upper_limit)
-    #
-    #     masked_image = cv2.bitwise_and(img, img, mask=mask)
-    #     image_stacked = stack_images(0.5, ([img_hsv], [mask], [masked_image]))
-    #     cv2.imshow('Images', image_stacked)
-    #     cv2.waitKey(1)
+    img = cv2.imread('imgs/red_onion_original/red_onion_108.jpg')
+    print(img.shape)
 
+    img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
+    cv2.namedWindow('Trackbars')
+    cv2.resizeWindow('Trackbars', 640, 240)
+    cv2.createTrackbar('Hue Min', 'Trackbars', 99, 179, lambda x: 0)
+    cv2.createTrackbar('Hue Max', 'Trackbars', 123, 179, lambda x: 0)
+    cv2.createTrackbar('Sat Min', 'Trackbars', 80, 255, lambda x: 0)
+    cv2.createTrackbar('Sat Max', 'Trackbars', 255, 255, lambda x: 0)
+    cv2.createTrackbar('Val Min', 'Trackbars', 148, 255, lambda x: 0)
+    cv2.createTrackbar('Val Max', 'Trackbars', 255, 255, lambda x: 0)
 
+    while True:
+        hue_min = cv2.getTrackbarPos('Hue Min', 'Trackbars')
+        hue_max = cv2.getTrackbarPos('Hue Max', 'Trackbars')
+        sat_min = cv2.getTrackbarPos('Sat Min', 'Trackbars')
+        sat_max = cv2.getTrackbarPos('Sat Max', 'Trackbars')
+        val_min = cv2.getTrackbarPos('Val Min', 'Trackbars')
+        val_max = cv2.getTrackbarPos('Val Max', 'Trackbars')
 
-    # img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    # print(img_gray.shape)
-    #
-    # img_blur = cv2.GaussianBlur(img_gray, (7, 7), 0.5)
-    #
-    # img_canny1 = cv2.Canny(img_gray, 30, 200)
-    # img_canny2 = cv2.Canny(img_gray, 200, 300)
-    #
-    # kernel = np.ones((5, 5), np.uint8)
-    #
-    # img_dilate = cv2.dilate(img_canny1, kernel, iterations=1)
-    # img_erode = cv2.erode(img_dilate, kernel, iterations=1)
-    #
-    # img_contour = img_gray.copy()
-    # get_contours(img_canny1, img_contour)
-    # stacked_imgs = stack_images(0.5, ([img_gray, img_blur, img_canny1, img_canny2],
-    #                                   [img_dilate, img_erode, img, img_contour]))
-    # cv2.imshow('Stacked together', stacked_imgs)
+        lower_limit = np.array([hue_min, sat_min, val_min])
+        upper_limit = np.array([hue_max, sat_max, val_max])
+        mask = cv2.inRange(img_hsv, lower_limit, upper_limit)
+
+        masked_image = cv2.bitwise_and(img, img, mask=mask)
+        image_stacked = stack_images(0.5, ([img_hsv], [mask], [masked_image]))
+        cv2.imshow('Images', image_stacked)
+        cv2.waitKey(1)
+
+    img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+    img_blur = cv2.GaussianBlur(img_gray, (7, 7), 0.5)
+
+    img_canny1 = cv2.Canny(img_gray, 30, 200)
+    img_canny2 = cv2.Canny(img_gray, 200, 300)
+
+    kernel = np.ones((5, 5), np.uint8)
+
+    img_dilate = cv2.dilate(img_canny1, kernel, iterations=1)
+    img_erode = cv2.erode(img_dilate, kernel, iterations=1)
+
+    img_contour = img_gray.copy()
+    get_contours(img_canny1, img_contour)
+    stacked_imgs = stack_images(0.5, ([img_gray, img_blur, img_canny1, img_canny2],
+                                      [img_dilate, img_erode, img, img_contour]))
+    cv2.imshow('Stacked together', stacked_imgs)
 
     for i in range(71):
         img = cv2.imread(f'./imgs/red_onion_original/red_onion_{i + 72}.jpg')

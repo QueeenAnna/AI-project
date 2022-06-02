@@ -15,7 +15,7 @@ def main():
             os.system(f'cd {label_img_path} && make qt5py3')
         if os.name == 'nt':
             os.system(f'{label_img_path} && pyrcc5 -o libs/resources.py resources.qrc')
-    # os.system(f'{label_img_path} && pyrcc5 -o libs/resources.py resources.qrc')
+
     os.system(f'cd {label_img_path} && python labelImg.py')
 
 

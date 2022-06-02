@@ -1,5 +1,4 @@
 from datetime import datetime
-
 import cv2
 import os
 
@@ -28,7 +27,7 @@ def show_webcam(mirror=False, cam_id=0, save_file='image'):
 
 
 def main():
-    # show_webcam()
+    show_webcam()
 
     folder = 'imgs/cucumber/training'
     for count, filename in enumerate(os.listdir(folder)):
@@ -38,6 +37,7 @@ def main():
         dst = f'{folder}/{dst}'
 
         os.rename(src, dst)
+
 
 if __name__ == '__main__':
     main()

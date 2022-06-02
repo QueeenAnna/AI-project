@@ -1,0 +1,23 @@
+Model 85 epochs hittade:
+
+Det här hittade modellen bra:
+lemon
+onion
+garlic
+red onion
+cheese
+tomatoes
+ginger
+
+Det här behöver modellen träna mer på:
+eggplants (hittar men ibland tror modellen att eggplant är en rödlök)
+beans (hittar men lite osäker, vissa etiketter på bönförpackningarna visar ost)
+beans (hittar dem vitgråa linserna men inte dem andra, så vi behöver lägga in fler bilder på andra linser)
+lentils (hittar bra på röda linser, men inte andra, vi behöver ta med ex. beluga linser och andra sorter)
+carrots (hittar men är lite osäker, vi behöver lägga in fler morotsbilder)
+potatoes (hittar men är lite osäker, vi behöver lägga in fler potatisbilder)
+bell pepper (hittar men är lite osäker, vi behöver lägga in fler paprikabilder utan stjälk)
+filmjölk (hittar inte över huvudtaget)
+spinach (hittar spenat i förpackningar men nu tror modellen att alla grönsaker i genomskinlig förpackning är spenat)
+
+Lärdom nr 1: Förpackningar är svårt!

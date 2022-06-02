@@ -44,7 +44,7 @@ def generate_texture():
 
 def get_coordinates_and_labels(img):
     from PIL import Image
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path='trained_model/model4.3.pt')
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path='../trained_model/model4.3.pt')
 
     im1 = Image.open(img)
     # im1 = Image.open('./detecto/imgs/onion/test/onion_2.jpg')

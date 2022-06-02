@@ -1,75 +1,91 @@
 {% extends "base.html" %}
-{% block content %}
-<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+{% block content12 %}
+
+<form id="sorted_recipes" action="{{ url_for("bp_open.recipes_get") }}" method="POST">
+
+<div>
+    <a href="{{ url.0 }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Spicy Southwest Pasta Salad</h5>
-          <small class="text-muted">3 years ago</small>
+            <h5 class="mb-1">{{ url.10 }}</h5>
+            <small class="text-muted">3 years ago</small>
         </div>
-        <p class="mb-1">While browsing for a pasta salad recipe, I found Inez Willenborg's Homestyle Macaroni Salad. It sounded good, but I didn't have all the ingredients, so I improvised and came up with this one. We absolutely loved it. Thank you, Inez, for the recipe that was the inspiration for this winner.</p>
-        <small class="text-muted">Ready In: 20mins</small>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <p class="mb-1">{{ url.11 }}</p>
+        <small class="text-muted">Ready in {{ url.12 }} minutes.</small>
+    </a>
+    <a href="{{ url.1 }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Titel</h5>
-          <small class="text-muted">x days ago</small>
+            <h5 class="mb-1">{{ url.13 }}</h5>
+            <small class="text-muted">7 years ago</small>
         </div>
-        <p class="mb-1">description/ingredients</p>
-        <small class="text-muted">Ready in x min</small>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <p class="mb-1">{{ url.14 }}</p>
+        <small class="text-muted">{{ url.15}}</small>
+    </a>
+    <a href="{{ url.2 }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Titel</h5>
-          <small class="text-muted">x days ago</small>
+            <h5 class="mb-1">{{ url.16 }}</h5>
+            <small class="text-muted">1 months ago</small>
         </div>
-        <p class="mb-1">description/ingredients</p>
-        <small class="text-muted">Ready in x min</small>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <p class="mb-1">{{ url.17 }}</p>
+        <small class="text-muted">{{ url.18}}</small>
+    </a>
+    <a href="{{ url.3 }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Titel</h5>
-          <small class="text-muted">x days ago</small>
+            <h5 class="mb-1">{{ url.19 }}</h5>
+            <small class="text-muted">9 years ago</small>
         </div>
-        <p class="mb-1">description/ingredients</p>
-        <small class="text-muted">Ready in x min</small>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <p class="mb-1">{{ url.20 }}</p>
+        <small class="text-muted">{{ url.21}}</small>
+    </a>
+    <a href="{{ url.4 }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Titel</h5>
-          <small class="text-muted">x days ago</small>
+            <h5 class="mb-1">{{ url.22 }}</h5>
+            <small class="text-muted">2 years ago</small>
         </div>
-        <p class="mb-1">description/ingredients</p>
-        <small class="text-muted">Ready in x min</small>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <p class="mb-1">{{ url.23 }}</p>
+        <small class="text-muted">{{ url.24}}</small>
+    </a>
+    <a href="{{ url.5 }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Titel</h5>
-          <small class="text-muted">x days ago</small>
+            <h5 class="mb-1">{{ url.25 }}</h5>
+            <small class="text-muted">1 years ago</small>
         </div>
-        <p class="mb-1">description/ingredients</p>
-        <small class="text-muted">Ready in x min</small>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <p class="mb-1">{{ url.26 }}</p>
+        <small class="text-muted">{{ url.27}}</small>
+    </a>
+    <a href="{{ url.6 }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Titel</h5>
-          <small class="text-muted">x days ago</small>
+            <h5 class="mb-1">{{ url.28 }}</h5>
+            <small class="text-muted">1 years ago</small>
         </div>
-        <p class="mb-1">description/ingredients</p>
-        <small class="text-muted">Ready in x min</small>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <p class="mb-1">{{ url.29 }}</p>
+        <small class="text-muted">{{ url.30}}</small>
+    </a>
+    <a href="{{ url.7 }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Titel</h5>
-          <small class="text-muted">x days ago</small>
+            <h5 class="mb-1">{{ url.31 }}</h5>
+            <small class="text-muted">3 months ago</small>
         </div>
-        <p class="mb-1">description/ingredients</p>
-        <small class="text-muted">Ready in x min</small>
-      </a>
-      <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <p class="mb-1">{{ url.32 }}</p>
+        <small class="text-muted">{{ url.33}}</small>
+    </a>
+    <a href="{{ url.8 }}" class="list-group-item list-group-item-action flex-column align-items-start">
         <div class="d-flex w-100 justify-content-between">
-          <h5 class="mb-1">Titel</h5>
-          <small class="text-muted">x days ago</small>
+            <h5 class="mb-1">{{ url.34 }}</h5>
+            <small class="text-muted">9 months ago</small>
         </div>
-        <p class="mb-1">description/ingredients</p>
-        <small class="text-muted">Ready in x min</small>
-      </a>
+        <p class="mb-1">{{ url.35 }}</p>
+        <small class="text-muted">{{ url.36}}</small>
+    </a>
+    <a href="{{ url.9 }}" class="list-group-item list-group-item-action flex-column align-items-start">
+        <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{ url.37 }}</h5>
+            <small class="text-muted">4 years ago</small>
+        </div>
+        <p class="mb-1">{{ url.38 }}</p>
+        <small class="text-muted">{{ url.39}}</small>
+    </a>
+
+</div>
+</form>
+
 {% endblock %}

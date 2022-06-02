@@ -1,4 +1,5 @@
 import os.path
+import pathlib
 import torch
 import numpy as np
 from time import time
@@ -44,17 +45,17 @@ class FoodDetection:
         frame = [frame]
         results = self.model(frame)
         labels, cord = results.xyxyn[0][:, -1], results.xyxyn[0][:, :-1]
-        conf = results.xyxyn[0][:, -2]
 
         counter = 0
 
         for i in results.xyxyn[0]:
+            path = pathlib.Path(__file__).parent.resolve()
+            path = os.path.join(path, f'exp/labels/test{counter}.txt')
 
-            with open(f'test{counter}.txt', 'w') as f:
+            with open(path, 'w') as f:
                 for i in range(len(labels)):
                     counter += 1
                     label_test = int(labels.min().cpu().detach().numpy().tolist())
-                    # conf_test = labels.min().cpu().detach().numpy().tolist()
                     f.write(f'{label_test}')
                     f.write('\n')
 
@@ -103,11 +104,3 @@ class FoodDetection:
                 yield cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
             else:
                 yield cv2.imread('Testbild.png')
-            # # cv2.imshow('foodapp', frame)
-            # if cv2.waitKey(5) & 0xFF == 27:
-            #     break
-        # cap.release()
-
-
-# detector = FoodDetection(capture_index=1, model_name='model_150_epoches.pt')
-# detector()
