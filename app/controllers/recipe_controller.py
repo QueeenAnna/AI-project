@@ -115,6 +115,7 @@ def sort_by_category(recipes, categories):
             sorted_recipes.append(recipe)
     return sorted_recipes
 
+
 def sort_by_labels(sorted_recipes, mylist):
 
     final_recipes = []

@@ -1,4 +1,6 @@
 import os.path
+import pathlib
+
 import torch
 import numpy as np
 from time import time
@@ -49,15 +51,17 @@ class FoodDetection:
         counter = 0
 
         for i in results.xyxyn[0]:
+            path = pathlib.Path(__file__).parent.resolve()
+            path = os.path.join(path, f'exp/labels/test{counter}.txt')
 
-            with open(f'exp/labels/test{counter}.txt', 'w') as f:
+            with open(path, 'w') as f:
                 for i in range(len(labels)):
                     counter += 1
                     label_test = int(labels.min().cpu().detach().numpy().tolist())
                     # conf_test = labels.min().cpu().detach().numpy().tolist()
                     f.write(f'{label_test}')
                     f.write('\n')
-
+        print()
         return labels, cord
 
     def class_to_label(self, x):
