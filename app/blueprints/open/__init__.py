@@ -1,4 +1,3 @@
-
 import webbrowser
 import requests
 from flask import Blueprint, render_template, request, redirect, url_for, Response, session, json
@@ -6,17 +5,9 @@ from bs4 import BeautifulSoup
 from app.controllers import recipe_controller as rc
 from app.controllers.camera import Video, FoodDetection
 import cv2
-from extract_labels_and_look_up_recipe import User
 
 data = None
 description = None
-
-user = User()
-# labels = ['asparagus', 'banana', 'beans', 'bell pepper', 'broccoli', 'carrot', 'cheese', 'chicken', 'chili',  # 0-8
-#              'cucumber', 'egg', 'eggplant', 'garlic', 'ginger', 'lemon', 'lentils', 'milk', 'minced_meat',  # 9-17
-#              'olive_label', 'olives', 'onion', 'potato', 'red_onion', 'rhubarb', 'rice', 'salmon', 'spaghetti',
-#              # 18-26
-#              'spinach', 'sun-dried_tomatoes', 'sun-dried_tomatoes_label', 'tomato_sauce', 'tomato', 'whipping_cream']
 
 labels = ['wrong', 'asparagus', 'banana', 'beans', 'bell pepper', 'broccoli', 'carrot', 'cheese', 'chicken',
           'chili', 'cucumber', 'egg', 'eggplant', 'garlic', 'ginger', 'lemon', 'lentils', 'minced_meat',
@@ -26,12 +17,7 @@ labels = ['wrong', 'asparagus', 'banana', 'beans', 'bell pepper', 'broccoli', 'c
 
 bp_open = Blueprint('bp_open', __name__)
 
-# video_stream = FoodDetection(capture_index=1, model_name='trained_model\model_150_epoches.pt')
-# detector = FoodDetection(capture_index=1, model_name='trained_model\model_150_epoches.pt')
-# video_stream()
-
 detector = FoodDetection(capture_index=1, model_name='./controllers/trained_model/model5.pt')
-#detector()
 
 
 @bp_open.get('/')
@@ -80,7 +66,6 @@ def video():
 
 @bp_open.get('/categories')
 def categories_get():
-    # Manage problem with naming that is inconsistent with database!!!
     categories = ['30 Minutes Or Less', 'Desserts', 'Inexpensive', 'Fish', 'Meat', 'Vegetarian']
 
     return render_template('categories.html', categories=categories)
@@ -88,12 +73,10 @@ def categories_get():
 
 @bp_open.post('/categories')
 def categories_post():
-    # Labels and c from index_post()
-    # c = 'above 10 frames'
-    counter = rc.get_labels()
-    recipes, ingredients = rc.get_recipes(labels, counter)  # Skip ingredients?
+    global data
 
-    # Manage problem with naming that is inconsistent with database!!!
+    counter = rc.get_labels()
+    recipes, ingredients = rc.get_recipes(labels, counter)
     categories = ['30-minutes-or-less', 'desserts', 'inexpensive', 'fish', 'meat', 'vegetarian']
 
     chosen = []
@@ -104,11 +87,8 @@ def categories_post():
             chosen.append(category)
 
     sorted_recipes = rc.sort_by_category(recipes, chosen)
-    print()
-    # urls = json.dumps(user.show_url(sorted_recipes))
-    global data
 
-    url = user.show_url(sorted_recipes)
+    url = rc.show_url(sorted_recipes)
     for i in range(10):
         url.append(sorted_recipes[i]['name'])
         url.append(sorted_recipes[i]['description'])
@@ -121,8 +101,8 @@ def categories_post():
 
 @bp_open.get('/recipes')
 def recipes_get():
-    #urls = request.args['urls']
     global data
+
     if not data:
         data = []
 
@@ -138,7 +118,6 @@ def main():
         'class': 'recipe-default-image recipe-hero__item theme-gradient svelte-jlgald'})
     image = soup[0].contents[1].attrs['src']
     webbrowser.open(image)
-    print()
 
 
 if __name__ == '__main__':

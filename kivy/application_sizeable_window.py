@@ -2,7 +2,7 @@ from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
 import os
-import time
+
 Builder.load_string('''
 <CameraClick>:
     orientation: 'vertical'

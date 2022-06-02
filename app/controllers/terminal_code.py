@@ -1,10 +1,7 @@
 import datetime
-import glob
 import os
 import csv
 import pathlib
-import webbrowser
-from collections import Counter
 import re
 
 
@@ -17,12 +14,10 @@ def convert_to_url(name, _id):
 
     return url
 
-    # webbrowser.open(url)
-
 
 class User:
     def __init__(self):
-        self.grades = []  # List of dicts
+        self.grades = []
 
     def grade_or_update_recipe(self, name):
         grade = int(input(f'Please grade the recipe {name}, 1-5:\n'
@@ -33,12 +28,6 @@ class User:
         self.grades.append(grade_dict)
 
     def get_labels(self):
-        # Count number of exp folders in run
-        # n_exp_folders = str(len(glob.glob('app/exp/labels')))
-        # # If 1 folder is just named exp
-        # if n_exp_folders == '1':
-        #     n_exp_folders == ''
-        # Get latest exp folder
         path = pathlib.Path(__file__).parent.resolve()
         path = os.path.join(path, 'app/exp/labels')
         directory = path
@@ -56,29 +45,18 @@ class User:
 
         return mylist
 
-        # count_all = Counter([int(row.split()[0]) for row in rows])
-        # count_above_10 = Counter({k: c for k, c in count_all.items() if c >= 2})
-        # counter_keys = count_above_10.keys()
-
-        # return count_above_10
-        # keys = []
-        # for i in counter_keys:
-        #     keys.append(i)
-        #
-        # return keys
-
     def get_recipes(self, labels, c):
         ingredients = [label for label in labels if labels.index(label) in c]
         recipes = []
 
-        with open('datasets/RAW_recipes.csv', 'r', encoding='utf-8') as infile:
+        with open('../../datasets/RAW_recipes.csv', 'r', encoding='utf-8') as infile:
             read = csv.reader(infile)
             for row in read:
                 recipe = {'name': '',
                           'id': 0,
                           'description': '',
                           'ingredients': [],
-                          'submitted': datetime.date,  # ???
+                          'submitted': datetime.date,
                           'minutes': 0,
                           'category': []}
                 for i in ingredients:
@@ -134,7 +112,6 @@ class User:
                 categories.append('meat')
             elif c == 6:
                 categories.append('vegetarian')
-        print()
 
         sorted_recipes = []
         for recipe in recipes:
@@ -144,7 +121,6 @@ class User:
         return sorted_recipes
 
     def show_url(self, sorted_recipes):
-        # print('These are the top five recipes for you:')
         url_list_name = []
         url_list_id = []
         final_url_list = []
@@ -162,13 +138,10 @@ class User:
             new_url = f'{base}{name}-{_id}'
             final_url_list.append(new_url)
 
-        print()
         return final_url_list
 
-            # print(f'{i + 1}. {sorted_recipes[i]["name"].title()}\n'  # tilldela index -1 strängen 'and ' + index -1
-                  # f'In this recipe you will use: {", ".join(sorted_recipes[i]["ingredients"])}\n')
+        choice = int(input('Which recipe would you like to be directed to? '))
 
-        # choice = int(input('Which recipe would you like to be directed to? '))
         convert_to_url(sorted_recipes[choice - 1]['name'], sorted_recipes[choice - 1]['id'])
 
         choice2 = input(f'Did you cook {sorted_recipes[choice - 1]["name"]}? y/n\n'
@@ -183,20 +156,24 @@ class User:
             choice3 = input('Do you want to see the recipes again? y/n\n'
                             '> ')
             if choice3:
-                pass  # Show recipes again, else go back?
+                pass
 
 
 def main():
+    # Terminal commands:
     # os.system("python detect.py --source 1 --weights ./trained_model/best.pt --save-txt")
     # python detect.py --source 1 --weights ./train_models/model_85_epochs.pt --save-txt
+
     user = User()
-    labels = ['asparagus', 'banana', 'beans', 'bell pepper', 'broccoli', 'carrot', 'cheese', 'chicken', 'chili',  # 0-8
-              'cucumber', 'egg', 'eggplant', 'garlic', 'ginger', 'lemon', 'lentils', 'milk', 'minced_meat',  # 9-17
-              'olive_label', 'olives', 'onion', 'potato', 'red_onion', 'rhubarb', 'rice', 'salmon', 'spaghetti',
-              # 18-26
-              'spinach', 'sun-dried_tomatoes', 'sun-dried_tomatoes_label', 'tomato_sauce', 'tomato', 'whipping_cream']
-    c = user.get_labels() # c --> a list with labels
-    recipes, ingredients = user.get_recipes(labels, c)  # ingredients may be unnecessary
+
+    labels = ['wrong', 'asparagus', 'banana', 'beans', 'bell pepper', 'broccoli', 'carrot', 'cheese', 'chicken',
+              'chili', 'cucumber', 'egg', 'eggplant', 'garlic', 'ginger', 'lemon', 'lentils', 'minced_meat',
+              'not_food', 'olive_label', 'olives', 'onion', 'potato', 'red_onion', 'rhubarb', 'rice', 'salmon',
+              'spaghetti', 'spinach', 'sun-dried tomatoes', 'sun-dried_tomatoes', 'sun-dried_tomatoes_label',
+              'tomato sauce', 'tomato_sauce', 'tomato', 'whipping_cream']
+
+    c = user.get_labels()
+    recipes, ingredients = user.get_recipes(labels, c)
     sorted_recipes = user.sort_by_category(recipes)
     user.show_url(sorted_recipes)
 
